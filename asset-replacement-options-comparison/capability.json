@@ -1,0 +1,45 @@
+{
+  "id": "asset-replacement-options-comparison",
+  "name": "Asset replacement options comparison",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "When an aging asset has more than one proposed replacement or upgrade, the finance lead and the engineering owner get one workbook: the supplied costs, operating assumptions and lives on one basis, with price-basis gaps, unverified savings and open sensitivity questions marked. It recommends no spend.",
+  "directory": "https://fullypowered.ai/capabilities/asset-replacement-options-comparison/",
+  "primary_function": "functions/finance-and-accounting",
+  "functions": [
+    "functions/finance-and-accounting"
+  ],
+  "industries": [
+    "industries/energy",
+    "industries/manufacturing",
+    "industries/real-estate"
+  ],
+  "situations": [
+    "situations/established-businesses"
+  ],
+  "related": [
+    "vendor-quote-comparison",
+    "business-line-investment-review",
+    "annual-operating-budget"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own published map of asset investment and end-of-life planning work in energy businesses."
+    }
+  ]
+}

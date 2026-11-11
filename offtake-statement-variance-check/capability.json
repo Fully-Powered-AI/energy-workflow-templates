@@ -1,0 +1,45 @@
+{
+  "id": "offtake-statement-variance-check",
+  "name": "Offtake statement variance check",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "When a buyer's offtake statement differs from the energy sales ledger, the settlement analyst gets one comparison: volumes, periods, prices and adjustments set against the metered-volume export and the agreed price inputs, each discrepancy traced to its source. Nothing is disputed or adjusted.",
+  "directory": "https://fullypowered.ai/capabilities/offtake-statement-variance-check/",
+  "primary_function": "functions/finance-and-accounting",
+  "functions": [
+    "functions/finance-and-accounting"
+  ],
+  "industries": [
+    "industries/energy"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling",
+    "situations/private-equity-and-portfolios"
+  ],
+  "related": [
+    "client-schedule-to-ledger-reconciliation",
+    "receivables-exception-review",
+    "payout-reconciliation-for-an-online-store"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own published map of the work, written from how settlement analysts check a buyer's statement against the sales ledger, the meter data and the agreed prices. No third-party text."
+    }
+  ]
+}

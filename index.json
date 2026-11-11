@@ -1,0 +1,55 @@
+{
+  "repository": "Fully-Powered-AI/energy-capability-templates",
+  "title": "Energy",
+  "term": "industries/energy",
+  "capabilities": [
+    {
+      "id": "asset-register-to-invoice-reconciliation",
+      "name": "Asset register to invoice reconciliation",
+      "version": "0.1.0",
+      "summary": "When new equipment, transfers or retirements must reach the reporting pack, the asset accountant gets a proposed register update matched to purchase records, commissioning evidence and the ledger, with duplicate IDs, unmatched invoices and uncertain in-service dates listed.",
+      "path": "asset-register-to-invoice-reconciliation/",
+      "directory": "https://fullypowered.ai/capabilities/asset-register-to-invoice-reconciliation/"
+    },
+    {
+      "id": "asset-replacement-options-comparison",
+      "name": "Asset replacement options comparison",
+      "version": "0.1.0",
+      "summary": "When an aging asset has more than one proposed replacement or upgrade, the finance lead and the engineering owner get one workbook: the supplied costs, operating assumptions and lives on one basis, with price-basis gaps, unverified savings and open sensitivity questions marked. It recommends no spend.",
+      "path": "asset-replacement-options-comparison/",
+      "directory": "https://fullypowered.ai/capabilities/asset-replacement-options-comparison/"
+    },
+    {
+      "id": "emissions-activity-data-schedule",
+      "name": "Emissions activity data schedule",
+      "version": "0.1.0",
+      "summary": "When the reporting period closes, the environmental reporting owner gets one source-linked schedule of energy, fuel and transport quantities with units and the boundary supplied, estimates kept apart from measured activity, missing factor references and gaps listed. It calculates no emissions figure.",
+      "path": "emissions-activity-data-schedule/",
+      "directory": "https://fullypowered.ai/capabilities/emissions-activity-data-schedule/"
+    },
+    {
+      "id": "field-service-invoice-evidence-check",
+      "name": "Field service invoice evidence check",
+      "version": "0.1.0",
+      "summary": "When completed field work is ready for invoicing, the billing manager gets draft billing lines that tie the agreed rates to crew time, equipment use, mobilization and signed service tickets. Unsigned tickets, overlapping equipment days and unsupported extras are listed as exceptions.",
+      "path": "field-service-invoice-evidence-check/",
+      "directory": "https://fullypowered.ai/capabilities/field-service-invoice-evidence-check/"
+    },
+    {
+      "id": "offtake-statement-variance-check",
+      "name": "Offtake statement variance check",
+      "version": "0.1.0",
+      "summary": "When a buyer's offtake statement differs from the energy sales ledger, the settlement analyst gets one comparison: volumes, periods, prices and adjustments set against the metered-volume export and the agreed price inputs, each discrepancy traced to its source. Nothing is disputed or adjusted.",
+      "path": "offtake-statement-variance-check/",
+      "directory": "https://fullypowered.ai/capabilities/offtake-statement-variance-check/"
+    },
+    {
+      "id": "service-visit-work-packet",
+      "name": "Service visit work packet",
+      "version": "0.1.0",
+      "summary": "Before a planned visit to a turbine, inverter or terminal asset, the maintenance supervisor gets one packet built from the logs and approved scope supplied: reported symptoms, previous visits, open parts requests and access questions. It judges no condition and sends nothing.",
+      "path": "service-visit-work-packet/",
+      "directory": "https://fullypowered.ai/capabilities/service-visit-work-packet/"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "emissions-activity-data-schedule",
+  "name": "Emissions activity data schedule",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "When the reporting period closes, the environmental reporting owner gets one source-linked schedule of energy, fuel and transport quantities with units and the boundary supplied, estimates kept apart from measured activity, missing factor references and gaps listed. It calculates no emissions figure.",
+  "directory": "https://fullypowered.ai/capabilities/emissions-activity-data-schedule/",
+  "primary_function": "functions/compliance-risk-and-privacy",
+  "functions": [
+    "functions/compliance-risk-and-privacy",
+    "functions/health-safety-and-environment"
+  ],
+  "industries": [
+    "industries/energy",
+    "industries/manufacturing",
+    "industries/logistics-and-trade"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/private-equity-and-portfolios"
+  ],
+  "related": [
+    "audit-evidence-index",
+    "dataset-profile",
+    "metric-definition-reconciliation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own published map of the work of energy businesses, and its own rules for prepared work: fixed inputs that stop on a mismatch, quantities kept as supplied, a person who approves boundaries and factors, and nothing calculated or stated on a person's behalf."
+    }
+  ]
+}

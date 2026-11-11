@@ -1,0 +1,47 @@
+{
+  "id": "service-visit-work-packet",
+  "name": "Service visit work packet",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Before a planned visit to a turbine, inverter or terminal asset, the maintenance supervisor gets one packet built from the logs and approved scope supplied: reported symptoms, previous visits, open parts requests and access questions. It judges no condition and sends nothing.",
+  "directory": "https://fullypowered.ai/capabilities/service-visit-work-packet/",
+  "primary_function": "functions/operations-and-process-improvement",
+  "functions": [
+    "functions/operations-and-process-improvement",
+    "functions/project-and-delivery"
+  ],
+  "industries": [
+    "industries/energy",
+    "industries/manufacturing",
+    "industries/logistics-and-trade"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "preventive-maintenance-plan",
+    "recurring-repair-service-history",
+    "site-observation-follow-up"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own published map of field work preparation in energy: the packet a maintenance supervisor reads before a planned visit, and the rule that condition reports no one has verified and missing technical instructions go back to the responsible specialist."
+    }
+  ]
+}

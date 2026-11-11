@@ -1,0 +1,46 @@
+{
+  "id": "field-service-invoice-evidence-check",
+  "name": "Field service invoice evidence check",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "When completed field work is ready for invoicing, the billing manager gets draft billing lines that tie the agreed rates to crew time, equipment use, mobilization and signed service tickets. Unsigned tickets, overlapping equipment days and unsupported extras are listed as exceptions.",
+  "directory": "https://fullypowered.ai/capabilities/field-service-invoice-evidence-check/",
+  "primary_function": "functions/finance-and-accounting",
+  "functions": [
+    "functions/finance-and-accounting",
+    "functions/customer-success-and-account-management"
+  ],
+  "industries": [
+    "industries/energy",
+    "industries/construction"
+  ],
+  "situations": [
+    "situations/growth-and-scaling",
+    "situations/established-businesses"
+  ],
+  "related": [
+    "pay-application-line-check",
+    "client-billing-summary",
+    "carrier-freight-invoice-check"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own published map of energy business work on its Energy industry page (the field service billing check), which informed the method, the default column headers, the order in which a record is judged and the worked example."
+    }
+  ]
+}

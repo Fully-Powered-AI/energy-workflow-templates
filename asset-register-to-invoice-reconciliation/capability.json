@@ -1,0 +1,46 @@
+{
+  "id": "asset-register-to-invoice-reconciliation",
+  "name": "Asset register to invoice reconciliation",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "When new equipment, transfers or retirements must reach the reporting pack, the asset accountant gets a proposed register update matched to purchase records, commissioning evidence and the ledger, with duplicate IDs, unmatched invoices and uncertain in-service dates listed.",
+  "directory": "https://fullypowered.ai/capabilities/asset-register-to-invoice-reconciliation/",
+  "primary_function": "functions/finance-and-accounting",
+  "functions": [
+    "functions/finance-and-accounting"
+  ],
+  "industries": [
+    "industries/energy",
+    "industries/construction",
+    "industries/logistics-and-trade"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/acquisitions-and-integration"
+  ],
+  "related": [
+    "bank-reconciliation-preparation",
+    "stock-count-reconciliation",
+    "client-schedule-to-ledger-reconciliation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own published map of the work of energy businesses, and its own rules for prepared work: fixed inputs that stop on a mismatch, a person who confirms identity and a person who approves treatment, and nothing entered until they do."
+    }
+  ]
+}
