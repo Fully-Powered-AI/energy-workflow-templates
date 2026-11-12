@@ -2,7 +2,7 @@
 
 When an aging asset has more than one proposed replacement or upgrade, the finance lead and the engineering owner get one workbook: the supplied costs, operating assumptions and lives on one basis, with price-basis gaps, unverified savings and open sensitivity questions marked. It recommends no spend.
 
-*Workflow template · Energy · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/asset-replacement-options-comparison/)*
+*Workflow template · Energy · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/asset-replacement-options-comparison/)*
 
 ## The outcome
 
@@ -76,9 +76,9 @@ Testing in your environment means running it on a past replacement decision your
 
 ## Related workflow templates
 
-- [Vendor quote comparison](https://fullypowered.ai/workflow templates/vendor-quote-comparison/)
-- [Business line investment review](https://fullypowered.ai/workflow templates/business-line-investment-review/)
-- [Annual operating budget](https://fullypowered.ai/workflow templates/annual-operating-budget/)
+- [Vendor quote comparison](https://fullypowered.ai/workflows/vendor-quote-comparison/)
+- [Business line investment review](https://fullypowered.ai/workflows/business-line-investment-review/)
+- [Annual operating budget](https://fullypowered.ai/workflows/annual-operating-budget/)
 
 ## Make it yours
 

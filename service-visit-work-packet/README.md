@@ -2,7 +2,7 @@
 
 Before a planned visit to a turbine, inverter or terminal asset, the maintenance supervisor gets one packet built from the logs and approved scope supplied: reported symptoms, previous visits, open parts requests and access questions. It judges no condition and sends nothing.
 
-*Workflow template · Energy · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/service-visit-work-packet/)*
+*Workflow template · Energy · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/service-visit-work-packet/)*
 
 ## The outcome
 
@@ -76,9 +76,9 @@ Testing in your environment means running it on a past visit your supervisor alr
 
 ## Related workflow templates
 
-- [Preventive maintenance plan](https://fullypowered.ai/workflow templates/preventive-maintenance-plan/)
-- [Recurring repair service history](https://fullypowered.ai/workflow templates/recurring-repair-service-history/)
-- [Site observation follow-up](https://fullypowered.ai/workflow templates/site-observation-follow-up/)
+- [Preventive maintenance plan](https://fullypowered.ai/workflows/preventive-maintenance-plan/)
+- [Recurring repair service history](https://fullypowered.ai/workflows/recurring-repair-service-history/)
+- [Site observation follow-up](https://fullypowered.ai/workflows/site-observation-follow-up/)
 
 ## Make it yours
 

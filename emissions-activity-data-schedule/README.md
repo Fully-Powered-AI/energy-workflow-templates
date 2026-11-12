@@ -2,7 +2,7 @@
 
 When the reporting period closes, the environmental reporting owner gets one source-linked schedule of energy, fuel and transport quantities with units and the boundary supplied, estimates kept apart from measured activity, missing factor references and gaps listed. It calculates no emissions figure.
 
-*Workflow template · Energy · Health, safety and environment · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/emissions-activity-data-schedule/)*
+*Workflow template · Energy · Health, safety and environment · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/emissions-activity-data-schedule/)*
 
 ## The outcome
 
@@ -77,9 +77,9 @@ Testing in your environment means running it on a past period your owner already
 
 ## Related workflow templates
 
-- [Audit evidence index](https://fullypowered.ai/workflow templates/audit-evidence-index/)
-- [Dataset profile](https://fullypowered.ai/workflow templates/dataset-profile/)
-- [Metric definition reconciliation](https://fullypowered.ai/workflow templates/metric-definition-reconciliation/)
+- [Audit evidence index](https://fullypowered.ai/workflows/audit-evidence-index/)
+- [Dataset profile](https://fullypowered.ai/workflows/dataset-profile/)
+- [Metric definition reconciliation](https://fullypowered.ai/workflows/metric-definition-reconciliation/)
 
 ## Make it yours
 

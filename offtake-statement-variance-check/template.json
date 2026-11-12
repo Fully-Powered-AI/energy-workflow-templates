@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "When a buyer's offtake statement differs from the energy sales ledger, the settlement analyst gets one comparison: volumes, periods, prices and adjustments set against the metered-volume export and the agreed price inputs, each discrepancy traced to its source. Nothing is disputed or adjusted.",
-  "directory": "https://fullypowered.ai/workflow templates/offtake-statement-variance-check/",
+  "directory": "https://fullypowered.ai/workflows/offtake-statement-variance-check/",
   "primary_function": "functions/finance-and-accounting",
   "functions": [
     "functions/finance-and-accounting"

@@ -2,7 +2,7 @@
 
 When a buyer's offtake statement differs from the energy sales ledger, the settlement analyst gets one comparison: volumes, periods, prices and adjustments set against the metered-volume export and the agreed price inputs, each discrepancy traced to its source. Nothing is disputed or adjusted.
 
-*Workflow template · Energy · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/offtake-statement-variance-check/)*
+*Workflow template · Energy · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/offtake-statement-variance-check/)*
 
 ## The outcome
 
@@ -87,9 +87,9 @@ Testing in your environment means running it on a past statement your analysts h
 
 ## Related workflow templates
 
-- [Client schedule to ledger reconciliation](https://fullypowered.ai/workflow templates/client-schedule-to-ledger-reconciliation/)
-- [Receivables exception review](https://fullypowered.ai/workflow templates/receivables-exception-review/)
-- [Payout reconciliation for an online store](https://fullypowered.ai/workflow templates/payout-reconciliation-for-an-online-store/)
+- [Client schedule to ledger reconciliation](https://fullypowered.ai/workflows/client-schedule-to-ledger-reconciliation/)
+- [Receivables exception review](https://fullypowered.ai/workflows/receivables-exception-review/)
+- [Payout reconciliation for an online store](https://fullypowered.ai/workflows/payout-reconciliation-for-an-online-store/)
 
 ## Make it yours
 

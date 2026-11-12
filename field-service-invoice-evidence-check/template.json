@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "When completed field work is ready for invoicing, the billing manager gets draft billing lines that tie the agreed rates to crew time, equipment use, mobilization and signed service tickets. Unsigned tickets, overlapping equipment days and unsupported extras are listed as exceptions.",
-  "directory": "https://fullypowered.ai/workflow templates/field-service-invoice-evidence-check/",
+  "directory": "https://fullypowered.ai/workflows/field-service-invoice-evidence-check/",
   "primary_function": "functions/finance-and-accounting",
   "functions": [
     "functions/finance-and-accounting",

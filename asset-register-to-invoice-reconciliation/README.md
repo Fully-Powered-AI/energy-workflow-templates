@@ -2,7 +2,7 @@
 
 When new equipment, transfers or retirements must reach the reporting pack, the asset accountant gets a proposed register update matched to purchase records, commissioning evidence and the ledger, with duplicate IDs, unmatched invoices and uncertain in-service dates listed.
 
-*Workflow template · Energy · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/asset-register-to-invoice-reconciliation/)*
+*Workflow template · Energy · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/asset-register-to-invoice-reconciliation/)*
 
 ## The outcome
 
@@ -83,9 +83,9 @@ Testing in your environment means running it on a past period your asset account
 
 ## Related workflow templates
 
-- [Bank reconciliation preparation](https://fullypowered.ai/workflow templates/bank-reconciliation-preparation/)
-- [Stock count reconciliation](https://fullypowered.ai/workflow templates/stock-count-reconciliation/)
-- [Client schedule to ledger reconciliation](https://fullypowered.ai/workflow templates/client-schedule-to-ledger-reconciliation/)
+- [Bank reconciliation preparation](https://fullypowered.ai/workflows/bank-reconciliation-preparation/)
+- [Stock count reconciliation](https://fullypowered.ai/workflows/stock-count-reconciliation/)
+- [Client schedule to ledger reconciliation](https://fullypowered.ai/workflows/client-schedule-to-ledger-reconciliation/)
 
 ## Make it yours
 

@@ -2,7 +2,7 @@
 
 When completed field work is ready for invoicing, the billing manager gets draft billing lines that tie the agreed rates to crew time, equipment use, mobilization and signed service tickets. Unsigned tickets, overlapping equipment days and unsupported extras are listed as exceptions.
 
-*Workflow template · Energy · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/field-service-invoice-evidence-check/)*
+*Workflow template · Energy · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/field-service-invoice-evidence-check/)*
 
 ## The outcome
 
@@ -82,9 +82,9 @@ Testing in your environment means running it on a past billing your billing mana
 
 ## Related workflow templates
 
-- [Pay application line check](https://fullypowered.ai/workflow templates/pay-application-line-check/)
-- [Client billing summary](https://fullypowered.ai/workflow templates/client-billing-summary/)
-- [Carrier freight invoice check](https://fullypowered.ai/workflow templates/carrier-freight-invoice-check/)
+- [Pay application line check](https://fullypowered.ai/workflows/pay-application-line-check/)
+- [Client billing summary](https://fullypowered.ai/workflows/client-billing-summary/)
+- [Carrier freight invoice check](https://fullypowered.ai/workflows/carrier-freight-invoice-check/)
 
 ## Make it yours
 

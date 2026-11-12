@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Before a planned visit to a turbine, inverter or terminal asset, the maintenance supervisor gets one packet built from the logs and approved scope supplied: reported symptoms, previous visits, open parts requests and access questions. It judges no condition and sends nothing.",
-  "directory": "https://fullypowered.ai/workflow templates/service-visit-work-packet/",
+  "directory": "https://fullypowered.ai/workflows/service-visit-work-packet/",
   "primary_function": "functions/operations-and-process-improvement",
   "functions": [
     "functions/operations-and-process-improvement",
