@@ -1,14 +1,14 @@
 {
   "id": "emissions-activity-data-schedule",
   "name": "Emissions activity data schedule",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "When the reporting period closes, the environmental reporting owner gets one source-linked schedule of energy, fuel and transport quantities with units and the boundary supplied, estimates kept apart from measured activity, missing factor references and gaps listed. It calculates no emissions figure.",
-  "directory": "https://fullypowered.ai/capabilities/emissions-activity-data-schedule/",
-  "primary_function": "functions/compliance-risk-and-privacy",
+  "directory": "https://fullypowered.ai/workflow templates/emissions-activity-data-schedule/",
+  "primary_function": "functions/health-safety-and-environment",
   "functions": [
-    "functions/compliance-risk-and-privacy",
-    "functions/health-safety-and-environment"
+    "functions/health-safety-and-environment",
+    "functions/compliance-risk-and-privacy"
   ],
   "industries": [
     "industries/energy",

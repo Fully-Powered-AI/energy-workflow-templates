@@ -1,6 +1,6 @@
 # Asset replacement options comparison: an invented example
 
-*Illustrative example with invented data.* The plant, the suppliers, the quotes and every figure below are invented. The plant is an invented biomass power station whose feed pump set P-3 is 22 years old and has three proposed replacements or upgrades. First come the inputs the person starting the work supplied, in full, then the workbook the capability returned.
+*Illustrative example with invented data.* The plant, the suppliers, the quotes and every figure below are invented. The plant is an invented biomass power station whose feed pump set P-3 is 22 years old and has three proposed replacements or upgrades. First come the inputs the person starting the work supplied, in full, then the workbook the workflow template returned.
 
 ## The inputs
 

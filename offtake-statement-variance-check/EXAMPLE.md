@@ -1,6 +1,6 @@
 # Offtake statement variance check: an invented example
 
-*Illustrative example with invented data.* The companies, the site, the people, the documents and the figures below are all invented. Seller S is an invented company that sells metered output from Site A to Buyer B. Buyer B's statement for the first eight days of October does not agree to Seller S's sales ledger. First come the inputs the settlement analyst supplied, in full, then the comparison the capability returned.
+*Illustrative example with invented data.* The companies, the site, the people, the documents and the figures below are all invented. Seller S is an invented company that sells metered output from Site A to Buyer B. Buyer B's statement for the first eight days of October does not agree to Seller S's sales ledger. First come the inputs the settlement analyst supplied, in full, then the comparison the workflow template returned.
 
 ## The inputs
 

@@ -1,6 +1,6 @@
 # Offtake statement variance check
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -127,7 +127,7 @@ This comparison shows how the buyer's statement and the sales ledger differ for 
 
 ## Acceptance tests
 
-Proposed tests. Test 1 was run once, in the recorded run on the invented example (see the trial record published with the capability template), and matched: difference 153.62, four discrepancies, remainder 0.00, period 2 marked incomplete. The others have not been run.
+Proposed tests. Test 1 was run once, in the recorded run on the invented example (see the trial record published with the workflow template), and matched: difference 153.62, four discrepancies, remainder 0.00, period 2 marked incomplete. The others have not been run.
 
 1. **Normal run.** Use the invented example. Expected: difference 153.62, four discrepancies, remainder 0.00, period 2 marked incomplete.
 2. **Header mismatch.** Rename the volume column in the meter export. Expected: stops and asks which column is which.

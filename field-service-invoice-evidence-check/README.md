@@ -2,7 +2,7 @@
 
 When completed field work is ready for invoicing, the billing manager gets draft billing lines that tie the agreed rates to crew time, equipment use, mobilization and signed service tickets. Unsigned tickets, overlapping equipment days and unsupported extras are listed as exceptions.
 
-*Capability template · Energy · Finance and accounting · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/field-service-invoice-evidence-check/)*
+*Workflow template · Energy · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/field-service-invoice-evidence-check/)*
 
 ## The outcome
 
@@ -40,7 +40,7 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 - [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/): when the number of tickets has outgrown a read-through by eye.
 - [Established businesses](https://fullypowered.ai/situations/established-businesses/): when billing has been done from the same folders for years and the same few errors keep coming back.
 
-It stays apart from [pay application line check](https://fullypowered.ai/capabilities/pay-application-line-check/), which checks a contractor's progress billing against a schedule of values; from [client billing summary](https://fullypowered.ai/capabilities/client-billing-summary/), which prepares a summary of fees for a client to read; and from [carrier freight invoice check](https://fullypowered.ai/capabilities/carrier-freight-invoice-check/), which checks an invoice you received against shipments. This capability prepares the lines of an invoice you are about to send.
+It stays apart from [pay application line check](https://fullypowered.ai/workflows/pay-application-line-check/), which checks a contractor's progress billing against a schedule of values; from [client billing summary](https://fullypowered.ai/workflows/client-billing-summary/), which prepares a summary of fees for a client to read; and from [carrier freight invoice check](https://fullypowered.ai/workflows/carrier-freight-invoice-check/), which checks an invoice you received against shipments. This workflow template prepares the lines of an invoice you are about to send.
 
 ## What has to change for your company
 
@@ -53,9 +53,9 @@ It stays apart from [pay application line check](https://fullypowered.ai/capabil
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template in its own words. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026, after its review edits, and the record is published with it. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template in its own words. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026, after its review edits, and the record is published with it. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on a past billing your billing manager already checked by hand, plus hard cases written in advance, each with its expected behavior: a renamed column, an unsigned ticket, one machine on two tickets for one day, an extra with no approval reference, a record on a ticket that is not in the file. The billing manager checks every figure against the rate sheet and the records before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) builds that test set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on a past billing your billing manager already checked by hand, plus hard cases written in advance, each with its expected behavior: a renamed column, an unsigned ticket, one machine on two tickets for one day, an extra with no approval reference, a record on a ticket that is not in the file. The billing manager checks every figure against the rate sheet and the records before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) builds that test set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -66,11 +66,11 @@ Testing in your environment means running it on a past billing your billing mana
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -80,12 +80,12 @@ Testing in your environment means running it on a past billing your billing mana
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
-- [Pay application line check](https://fullypowered.ai/capabilities/pay-application-line-check/)
-- [Client billing summary](https://fullypowered.ai/capabilities/client-billing-summary/)
-- [Carrier freight invoice check](https://fullypowered.ai/capabilities/carrier-freight-invoice-check/)
+- [Pay application line check](https://fullypowered.ai/workflow templates/pay-application-line-check/)
+- [Client billing summary](https://fullypowered.ai/workflow templates/client-billing-summary/)
+- [Carrier freight invoice check](https://fullypowered.ai/workflow templates/carrier-freight-invoice-check/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

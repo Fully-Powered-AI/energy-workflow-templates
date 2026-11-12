@@ -2,7 +2,7 @@
 
 Before a planned visit to a turbine, inverter or terminal asset, the maintenance supervisor gets one packet built from the logs and approved scope supplied: reported symptoms, previous visits, open parts requests and access questions. It judges no condition and sends nothing.
 
-*Capability template · Energy · Operations and process improvement · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/service-visit-work-packet/)*
+*Workflow template · Energy · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/service-visit-work-packet/)*
 
 ## The outcome
 
@@ -43,11 +43,11 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 Use your own column headers from your maintenance log, parts system and access register, or export them with the ones the template names. Set the window, the age limits for open parts requests and access notes, the watch words and the role names to your own. Decide who may verify a report and who is the responsible specialist for each kind of asset. Fix where the approved scope comes from.
 
-This capability judges no equipment condition, writes no safe-work or technical instruction and touches no control system. For a plan of recurring care across a site, use [preventive maintenance plan](https://fullypowered.ai/capabilities/preventive-maintenance-plan/). For repeated repairs that keep interrupting service, use [recurring repair service history](https://fullypowered.ai/capabilities/recurring-repair-service-history/). For notes from a site walk, use [site observation follow-up](https://fullypowered.ai/capabilities/site-observation-follow-up/). None of those is covered here.
+This workflow template judges no equipment condition, writes no safe-work or technical instruction and touches no control system. For a plan of recurring care across a site, use [preventive maintenance plan](https://fullypowered.ai/workflows/preventive-maintenance-plan/). For repeated repairs that keep interrupting service, use [recurring repair service history](https://fullypowered.ai/workflows/recurring-repair-service-history/). For notes from a site walk, use [site observation follow-up](https://fullypowered.ai/workflows/site-observation-follow-up/). None of those is covered here.
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template in its own words from its own map of the work, with no third-party text. It was editorially reviewed on 10 November 2026. It was tried once on its invented example, on an earlier wording of the instructions, in Claude on 10 November 2026, and the record is published with it. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template in its own words from its own map of the work, with no third-party text. It was editorially reviewed on 10 November 2026. It was tried once on its invented example, on an earlier wording of the instructions, in Claude on 10 November 2026, and the record is published with it. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your environment means running it on a past visit your supervisor already knows, with cases written in advance: a report with no verification, a scope line with no instruction, a part due after the visit. The supervisor checks every line against the logs before anyone relies on the packet.
 
@@ -60,11 +60,11 @@ Testing in your environment means running it on a past visit your supervisor alr
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -74,12 +74,12 @@ Testing in your environment means running it on a past visit your supervisor alr
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
-- [Preventive maintenance plan](https://fullypowered.ai/capabilities/preventive-maintenance-plan/)
-- [Recurring repair service history](https://fullypowered.ai/capabilities/recurring-repair-service-history/)
-- [Site observation follow-up](https://fullypowered.ai/capabilities/site-observation-follow-up/)
+- [Preventive maintenance plan](https://fullypowered.ai/workflow templates/preventive-maintenance-plan/)
+- [Recurring repair service history](https://fullypowered.ai/workflow templates/recurring-repair-service-history/)
+- [Site observation follow-up](https://fullypowered.ai/workflow templates/site-observation-follow-up/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

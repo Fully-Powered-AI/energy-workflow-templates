@@ -1,6 +1,6 @@
 # Emissions activity data schedule: an invented example
 
-*Illustrative example with invented data.* The company, the people, the sites, the file names and every quantity below are invented. The company is a small invented energy services business, Tarnbeck Energy Services, with depots and yards that report to one environmental reporting owner. First come the five inputs the owner supplied, in full, then the schedule the capability returned.
+*Illustrative example with invented data.* The company, the people, the sites, the file names and every quantity below are invented. The company is a small invented energy services business, Tarnbeck Energy Services, with depots and yards that report to one environmental reporting owner. First come the five inputs the owner supplied, in full, then the schedule the workflow template returned.
 
 ## The inputs
 

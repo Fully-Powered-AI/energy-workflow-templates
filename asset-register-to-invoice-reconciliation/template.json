@@ -1,10 +1,10 @@
 {
   "id": "asset-register-to-invoice-reconciliation",
   "name": "Asset register to invoice reconciliation",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "When new equipment, transfers or retirements must reach the reporting pack, the asset accountant gets a proposed register update matched to purchase records, commissioning evidence and the ledger, with duplicate IDs, unmatched invoices and uncertain in-service dates listed.",
-  "directory": "https://fullypowered.ai/capabilities/asset-register-to-invoice-reconciliation/",
+  "directory": "https://fullypowered.ai/workflow templates/asset-register-to-invoice-reconciliation/",
   "primary_function": "functions/finance-and-accounting",
   "functions": [
     "functions/finance-and-accounting"

@@ -1,6 +1,6 @@
 # Asset register to invoice reconciliation: an invented example
 
-*Illustrative example with invented data.* The company, the equipment, the suppliers and every figure below are invented. The company is an invented operator of two small solar and storage sites, called the Company here; its sites are Site North and Site South. Roles stand in for people and suppliers are lettered. The asset accountant asks for the reconciliation on 10 November 2026 for the period 1 to 31 October 2026. First come the inputs the asset accountant supplied, in full, then the reconciliation the capability returned.
+*Illustrative example with invented data.* The company, the equipment, the suppliers and every figure below are invented. The company is an invented operator of two small solar and storage sites, called the Company here; its sites are Site North and Site South. Roles stand in for people and suppliers are lettered. The asset accountant asks for the reconciliation on 10 November 2026 for the period 1 to 31 October 2026. First come the inputs the asset accountant supplied, in full, then the reconciliation the workflow template returned.
 
 ## The inputs
 

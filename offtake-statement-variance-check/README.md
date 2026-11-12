@@ -2,15 +2,15 @@
 
 When a buyer's offtake statement differs from the energy sales ledger, the settlement analyst gets one comparison: volumes, periods, prices and adjustments set against the metered-volume export and the agreed price inputs, each discrepancy traced to its source. Nothing is disputed or adjusted.
 
-*Capability template · Energy · Finance and accounting · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/offtake-statement-variance-check/)*
+*Workflow template · Energy · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/offtake-statement-variance-check/)*
 
 ## The outcome
 
-A buyer sends a statement for a delivery period, and the amount does not match what the sales ledger holds. The usual response is hours of lining up statement lines, ledger lines and meter reads by hand. This capability does the lining up first and shows the result as one comparison.
+A buyer sends a statement for a delivery period, and the amount does not match what the sales ledger holds. The usual response is hours of lining up statement lines, ledger lines and meter reads by hand. This workflow template does the lining up first and shows the result as one comparison.
 
 For each settlement period it sets three figures side by side: what the buyer's statement says, what the ledger says, and what the supplied meter volumes multiplied by the supplied prices give. Every difference becomes a numbered discrepancy with the file and line it comes from, its effect on the gap between statement and ledger, and the step that would settle it. Intervals missing from the meter export, and meter reads that were estimated or revised, are listed so nobody mistakes an incomplete recomputation for a final one. The discrepancies are added up to the gap, and any remainder is shown rather than hidden.
 
-The settlement analyst verifies the calculations and decides what happens next. The capability does not say who is right, does not interpret a pricing or settlement term, and makes no regulatory determination.
+The settlement analyst verifies the calculations and decides what happens next. The workflow template does not say who is right, does not interpret a pricing or settlement term, and makes no regulatory determination.
 
 ## Who starts the work, and when
 
@@ -45,7 +45,7 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 - [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/), when the number of buyers and delivery points outgrows hand comparison.
 - [Private equity & portfolios](https://fullypowered.ai/situations/private-equity-and-portfolios/), where an owner wants statement differences explained before cash is booked.
 
-It stays apart from [client schedule to ledger reconciliation](https://fullypowered.ai/capabilities/client-schedule-to-ledger-reconciliation/), which agrees a client's subledger schedule to its trial balance, from [receivables exception review](https://fullypowered.ai/capabilities/receivables-exception-review/), which decides what to do with individual receipts, and from [payout reconciliation for an online store](https://fullypowered.ai/capabilities/payout-reconciliation-for-an-online-store/), which agrees platform payouts to orders. This one checks a buyer's energy statement against the ledger and the meter data.
+It stays apart from [client schedule to ledger reconciliation](https://fullypowered.ai/workflows/client-schedule-to-ledger-reconciliation/), which agrees a client's subledger schedule to its trial balance, from [receivables exception review](https://fullypowered.ai/workflows/receivables-exception-review/), which decides what to do with individual receipts, and from [payout reconciliation for an online store](https://fullypowered.ai/workflows/payout-reconciliation-for-an-online-store/), which agrees platform payouts to orders. This one checks a buyer's energy statement against the ledger and the meter data.
 
 ## What has to change for your company
 
@@ -58,9 +58,9 @@ It stays apart from [client schedule to ledger reconciliation](https://fullypowe
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026; the record is published with it. The points that run found open were settled the same day, after an independent review, in small wording changes to the instructions that were not run again. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026; the record is published with it. The points that run found open were settled the same day, after an independent review, in small wording changes to the instructions that were not run again. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on a past statement your analysts have already worked through by hand, plus hard cases written in advance, each with the expected result: a missing interval, a revised meter read, a price that differs by transposed digits, an adjustment with no schedule entry, a unit that does not match. The settlement analyst compares every figure with the settled workpaper before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on a past statement your analysts have already worked through by hand, plus hard cases written in advance, each with the expected result: a missing interval, a revised meter read, a price that differs by transposed digits, an adjustment with no schedule entry, a unit that does not match. The settlement analyst compares every figure with the settled workpaper before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -71,11 +71,11 @@ Testing in your environment means running it on a past statement your analysts h
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -85,12 +85,12 @@ Testing in your environment means running it on a past statement your analysts h
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
-- [Client schedule to ledger reconciliation](https://fullypowered.ai/capabilities/client-schedule-to-ledger-reconciliation/)
-- [Receivables exception review](https://fullypowered.ai/capabilities/receivables-exception-review/)
-- [Payout reconciliation for an online store](https://fullypowered.ai/capabilities/payout-reconciliation-for-an-online-store/)
+- [Client schedule to ledger reconciliation](https://fullypowered.ai/workflow templates/client-schedule-to-ledger-reconciliation/)
+- [Receivables exception review](https://fullypowered.ai/workflow templates/receivables-exception-review/)
+- [Payout reconciliation for an online store](https://fullypowered.ai/workflow templates/payout-reconciliation-for-an-online-store/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

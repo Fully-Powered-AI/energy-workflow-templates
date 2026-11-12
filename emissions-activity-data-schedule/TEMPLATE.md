@@ -1,6 +1,6 @@
 # Emissions activity data schedule
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -16,7 +16,7 @@ Do not use it before the period closes, when the boundary has not been approved,
 
 - **Runs it:** a person in site operations, finance or environmental reporting, for the owner.
 - **Owns the boundary, the factor references and every answer to the questions:** the environmental reporting owner.
-- **Signs off any calculation or external statement made later:** the reviewer. This capability produces neither.
+- **Signs off any calculation or external statement made later:** the reviewer. This workflow template produces neither.
 - **Holds the source documents:** the site contact named in the export, who is asked for a missing reading by the owner, never by the assistant.
 
 ## Inputs

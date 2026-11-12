@@ -1,6 +1,6 @@
 # Field service invoice evidence check
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -16,7 +16,7 @@ Do not use it to interpret a clause in a contract or rate sheet, to decide wheth
 
 - **Runs it:** the billing clerk or a field service coordinator.
 - **Approves quantities and charges:** the billing manager.
-- **Resolves disputed work:** the account lead, with the customer, outside this capability.
+- **Resolves disputed work:** the account lead, with the customer, outside this workflow template.
 - **Owns the rate sheet and adds rates to it:** whoever the company names; not the assistant.
 
 ## Inputs
