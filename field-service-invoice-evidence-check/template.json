@@ -24,7 +24,7 @@
     "carrier-freight-invoice-check"
   ],
   "evidence": {
-    "written_by": "Fully Powered AI",
+    "written_by": "FullyPowered AI",
     "source_and_rights_reviewed": true,
     "editorially_reviewed": "2026-11-10",
     "package_format_valid": true,
@@ -40,7 +40,7 @@
   "sources": [
     {
       "kind": "own",
-      "title": "Fully Powered AI's own published map of energy business work on its Energy industry page (the field service billing check), which informed the method, the default column headers, the order in which a record is judged and the worked example."
+      "title": "FullyPowered AI's own published map of energy business work on its Energy industry page (the field service billing check), which informed the method, the default column headers, the order in which a record is judged and the worked example."
     }
   ]
 }
