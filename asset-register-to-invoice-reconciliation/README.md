@@ -4,6 +4,8 @@ When new equipment, transfers or retirements must reach the reporting pack, the 
 
 *Workflow template · Energy · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/asset-register-to-invoice-reconciliation/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/asset-register-to-invoice-reconciliation/?from=gh-asset-register-to-invoice-reconciliat)
+
 ## The outcome
 
 The equipment register, the supplier invoices, the commissioning papers and the ledger are compared one asset at a time instead of by totals. Every asset gets a line showing its cost in the register, on the invoice and in the ledger, and whether they agree. Every invoice line is either tied to an asset or listed as unmatched. Every ID that appears twice is set aside and shown, so a duplicate does not quietly double a cost.

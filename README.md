@@ -2,9 +2,11 @@
 
 Every asset, visit and statement accounted for. These workflow templates are written for the people who run the business side of energy projects and services. They prepare the packets, reconciliations and checks from your own records. They make no engineering, safety or regulatory determination and touch no control system.
 
-This repository holds 6 workflow templates for operations, asset and finance staff at an energy business. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
+**These are templates, made to be customized and deployed.** They are examples and a starting point, not a complete list: copy one, change it to fit how your team does the work, and run it in the AI you already pay for.
 
-These templates are examples and a starting point, not a complete list of what a team can do. FullyPowered AI can build any workflow for your company, including one that runs several steps, in a [Workflow Sprint or a scoped implementation](https://fullypowered.ai/pricing/).
+**FullyPowered AI customizes and builds AI workflows that run in ChatGPT, Claude, Copilot and Gemini**, including ones that run several steps. [More examples for energy businesses](https://fullypowered.ai/industries/energy/?from=gh-energy) · [Have one built for your team](https://fullypowered.ai/pricing/?from=gh-energy)
+
+This repository holds 6 workflow templates for operations, asset and finance staff at an energy business. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
 
 ## The workflow templates
 

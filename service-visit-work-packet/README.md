@@ -4,6 +4,8 @@ Before a planned visit to a turbine, inverter or terminal asset, the maintenance
 
 *Workflow template · Energy · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/service-visit-work-packet/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/service-visit-work-packet/?from=gh-energy-service-visit-work-packet)
+
 ## The outcome
 
 The supervisor opens one document for one asset and one planned visit, and sees the visit's history in one place. The approved scope is there as it was approved. Beside it sit the symptoms people have reported, who verified each, whether a visit has happened since, the visits already made, the parts still on order and the access notes with their ages.

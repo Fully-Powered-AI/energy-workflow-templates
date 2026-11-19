@@ -4,6 +4,8 @@ When the reporting period closes, the environmental reporting owner gets one sou
 
 *Workflow template · Energy · Health, safety and environment · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/emissions-activity-data-schedule/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/emissions-activity-data-schedule/?from=gh-emissions-activity-data-schedule)
+
 ## The outcome
 
 At period close the activity data sits in several places: utility bills from one site, a fuel-card export from another, a freight log, last period's workbook. Before anyone can apply a factor, someone has to find out what is actually there. This workflow template does that in one pass and gives the environmental reporting owner a schedule in which every quantity names the record and document it came from.

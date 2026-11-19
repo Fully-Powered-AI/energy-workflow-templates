@@ -4,6 +4,8 @@ When an aging asset has more than one proposed replacement or upgrade, the finan
 
 *Workflow template · Energy · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/asset-replacement-options-comparison/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/asset-replacement-options-comparison/?from=gh-asset-replacement-options-comparison)
+
 ## The outcome
 
 Three proposals for the same worn-out pump, boiler or transformer rarely arrive in the same shape. One is priced in last year's money, one leaves out installation, one promises savings with nothing behind them, and their working lives run from six years to twenty. The review meeting then spends its time arguing about the paperwork instead of the asset.

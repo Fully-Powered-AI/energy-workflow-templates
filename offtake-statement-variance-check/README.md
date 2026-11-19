@@ -4,6 +4,8 @@ When a buyer's offtake statement differs from the energy sales ledger, the settl
 
 *Workflow template · Energy · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/offtake-statement-variance-check/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/offtake-statement-variance-check/?from=gh-offtake-statement-variance-check)
+
 ## The outcome
 
 A buyer sends a statement for a delivery period, and the amount does not match what the sales ledger holds. The usual response is hours of lining up statement lines, ledger lines and meter reads by hand. This workflow template does the lining up first and shows the result as one comparison.

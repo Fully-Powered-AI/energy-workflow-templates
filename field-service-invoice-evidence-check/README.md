@@ -4,6 +4,8 @@ When completed field work is ready for invoicing, the billing manager gets draft
 
 *Workflow template · Energy · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/field-service-invoice-evidence-check/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/field-service-invoice-evidence-check/?from=gh-field-service-invoice-evidence-check)
+
 ## The outcome
 
 The billing manager opens one page instead of a pile of tickets, time sheets and equipment logs. Every field record that can be billed is priced at the rate on the customer's rate sheet and sits on a draft billing line under its signed service ticket. Every record that cannot yet be billed is shown separately, with the reason and the amount held.
