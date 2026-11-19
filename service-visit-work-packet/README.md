@@ -1,10 +1,17 @@
 # Service visit work packet
 
-Before a planned visit to a turbine, inverter or terminal asset, the maintenance supervisor gets one packet built from the logs and approved scope supplied: reported symptoms, previous visits, open parts requests and access questions. It judges no condition and sends nothing.
+One packet before a planned visit to a turbine, inverter or terminal asset: scope, symptoms, past visits, parts and access. The supervisor approves.
 
-*Workflow template · Energy · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/service-visit-work-packet/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Service visit work packet on our website](https://fullypowered.ai/workflows/service-visit-work-packet/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-service-visit-work-packet&from=gh-energy-service-visit-work-packet) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/service-visit-work-packet/?from=gh-energy-service-visit-work-packet)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Energy · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/service-visit-work-packet/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-service-visit-work-packet&from=gh-energy-service-visit-work-packet)*
 
 ## The outcome
 
@@ -33,19 +40,19 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Energy](https://fullypowered.ai/industries/energy/), for wind, solar and terminal assets where the crew travels to a remote site and the visit must be right the first time.
-- [Manufacturing](https://fullypowered.ai/industries/manufacturing/), for planned visits to plant equipment by the maintenance team or a service contractor.
-- [Logistics and trade](https://fullypowered.ai/industries/logistics-and-trade/), for port, depot and terminal equipment with shared access and long parts lead times.
-- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/), which owns the planning of visits and the records they draw on.
-- [Project and delivery](https://fullypowered.ai/functions/project-and-delivery/), when a visit is part of a larger outage or delivery schedule.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/), with years of logs in several places.
-- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/), when more assets and more crews outgrow what a supervisor can hold in their head.
+- [Energy](https://fullypowered.ai/industries/energy/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-service-visit-work-packet&from=gh-energy-service-visit-work-packet), for wind, solar and terminal assets where the crew travels to a remote site and the visit must be right the first time.
+- [Manufacturing](https://fullypowered.ai/industries/manufacturing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-service-visit-work-packet&from=gh-energy-service-visit-work-packet), for planned visits to plant equipment by the maintenance team or a service contractor.
+- [Logistics and trade](https://fullypowered.ai/industries/logistics-and-trade/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-service-visit-work-packet&from=gh-energy-service-visit-work-packet), for port, depot and terminal equipment with shared access and long parts lead times.
+- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-service-visit-work-packet&from=gh-energy-service-visit-work-packet), which owns the planning of visits and the records they draw on.
+- [Project and delivery](https://fullypowered.ai/functions/project-and-delivery/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-service-visit-work-packet&from=gh-energy-service-visit-work-packet), when a visit is part of a larger outage or delivery schedule.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-service-visit-work-packet&from=gh-energy-service-visit-work-packet), with years of logs in several places.
+- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-service-visit-work-packet&from=gh-energy-service-visit-work-packet), when more assets and more crews outgrow what a supervisor can hold in their head.
 
 ## What has to change for your company
 
 Use your own column headers from your maintenance log, parts system and access register, or export them with the ones the template names. Set the window, the age limits for open parts requests and access notes, the watch words and the role names to your own. Decide who may verify a report and who is the responsible specialist for each kind of asset. Fix where the approved scope comes from.
 
-This workflow template judges no equipment condition, writes no safe-work or technical instruction and touches no control system. For a plan of recurring care across a site, use [preventive maintenance plan](https://fullypowered.ai/workflows/preventive-maintenance-plan/). For repeated repairs that keep interrupting service, use [recurring repair service history](https://fullypowered.ai/workflows/recurring-repair-service-history/). For notes from a site walk, use [site observation follow-up](https://fullypowered.ai/workflows/site-observation-follow-up/). None of those is covered here.
+This workflow template judges no equipment condition, writes no safe-work or technical instruction and touches no control system. For a plan of recurring care across a site, use [preventive maintenance plan](https://fullypowered.ai/workflows/preventive-maintenance-plan/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-service-visit-work-packet&from=gh-energy-service-visit-work-packet). For repeated repairs that keep interrupting service, use [recurring repair service history](https://fullypowered.ai/workflows/recurring-repair-service-history/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-service-visit-work-packet&from=gh-energy-service-visit-work-packet). For notes from a site walk, use [site observation follow-up](https://fullypowered.ai/workflows/site-observation-follow-up/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-service-visit-work-packet&from=gh-energy-service-visit-work-packet). None of those is covered here.
 
 ## What has been checked
 
@@ -78,10 +85,10 @@ Testing in your environment means running it on a past visit your supervisor alr
 
 ## Related workflow templates
 
-- [Preventive maintenance plan](https://fullypowered.ai/workflows/preventive-maintenance-plan/)
-- [Recurring repair service history](https://fullypowered.ai/workflows/recurring-repair-service-history/)
-- [Site observation follow-up](https://fullypowered.ai/workflows/site-observation-follow-up/)
+- [Preventive maintenance plan](https://fullypowered.ai/workflows/preventive-maintenance-plan/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-service-visit-work-packet&from=gh-energy-service-visit-work-packet)
+- [Recurring repair service history](https://fullypowered.ai/workflows/recurring-repair-service-history/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-service-visit-work-packet&from=gh-energy-service-visit-work-packet)
+- [Site observation follow-up](https://fullypowered.ai/workflows/site-observation-follow-up/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-service-visit-work-packet&from=gh-energy-service-visit-work-packet)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-service-visit-work-packet&from=gh-energy-service-visit-work-packet).

@@ -1,10 +1,17 @@
 # Emissions activity data schedule
 
-When the reporting period closes, the environmental reporting owner gets one source-linked schedule of energy, fuel and transport quantities with units and the boundary supplied, estimates kept apart from measured activity, missing factor references and gaps listed. It calculates no emissions figure.
+One source-linked schedule of energy, fuel and transport quantities with gaps listed. It calculates no emissions figure; the owner decides each open point.
 
-*Workflow template · Energy · Health, safety and environment · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/emissions-activity-data-schedule/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Emissions activity data schedule on our website](https://fullypowered.ai/workflows/emissions-activity-data-schedule/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-emissions-activity-data-schedule&from=gh-emissions-activity-data-schedule) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/emissions-activity-data-schedule/?from=gh-emissions-activity-data-schedule)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Energy · Health, safety and environment · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/emissions-activity-data-schedule/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-emissions-activity-data-schedule&from=gh-emissions-activity-data-schedule)*
 
 ## The outcome
 
@@ -34,15 +41,15 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Compliance, risk and privacy](https://fullypowered.ai/functions/compliance-risk-and-privacy/), where reporting figures need a record of where each quantity came from.
-- [Health, safety and environment](https://fullypowered.ai/functions/health-safety-and-environment/), which often owns the environmental data collection.
-- [Energy](https://fullypowered.ai/industries/energy/), where activity is spread across sites, meters and fuel suppliers.
-- [Manufacturing](https://fullypowered.ai/industries/manufacturing/), where plant energy, fuel and inbound transport sit in different systems.
-- [Logistics and trade](https://fullypowered.ai/industries/logistics-and-trade/), where fuel and hired freight make up most of the activity.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/), where several sites report to one owner each period.
-- [Private equity and portfolios](https://fullypowered.ai/situations/private-equity-and-portfolios/), where portfolio companies report on a set rhythm and the data arrives in different shapes.
+- [Compliance, risk and privacy](https://fullypowered.ai/functions/compliance-risk-and-privacy/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-emissions-activity-data-schedule&from=gh-emissions-activity-data-schedule), where reporting figures need a record of where each quantity came from.
+- [Health, safety and environment](https://fullypowered.ai/functions/health-safety-and-environment/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-emissions-activity-data-schedule&from=gh-emissions-activity-data-schedule), which often owns the environmental data collection.
+- [Energy](https://fullypowered.ai/industries/energy/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-emissions-activity-data-schedule&from=gh-emissions-activity-data-schedule), where activity is spread across sites, meters and fuel suppliers.
+- [Manufacturing](https://fullypowered.ai/industries/manufacturing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-emissions-activity-data-schedule&from=gh-emissions-activity-data-schedule), where plant energy, fuel and inbound transport sit in different systems.
+- [Logistics and trade](https://fullypowered.ai/industries/logistics-and-trade/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-emissions-activity-data-schedule&from=gh-emissions-activity-data-schedule), where fuel and hired freight make up most of the activity.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-emissions-activity-data-schedule&from=gh-emissions-activity-data-schedule), where several sites report to one owner each period.
+- [Private equity and portfolios](https://fullypowered.ai/situations/private-equity-and-portfolios/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-emissions-activity-data-schedule&from=gh-emissions-activity-data-schedule), where portfolio companies report on a set rhythm and the data arrives in different shapes.
 
-It is a different piece of work from [Audit evidence index](https://fullypowered.ai/workflows/audit-evidence-index/), which links an audit's requests to documents, and from [Dataset profile](https://fullypowered.ai/workflows/dataset-profile/), which describes an unfamiliar table before it is used.
+It is a different piece of work from [Audit evidence index](https://fullypowered.ai/workflows/audit-evidence-index/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-emissions-activity-data-schedule&from=gh-emissions-activity-data-schedule), which links an audit's requests to documents, and from [Dataset profile](https://fullypowered.ai/workflows/dataset-profile/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-emissions-activity-data-schedule&from=gh-emissions-activity-data-schedule), which describes an unfamiliar table before it is used.
 
 ## What has to change for your company
 
@@ -79,10 +86,10 @@ Testing in your environment means running it on a past period your owner already
 
 ## Related workflow templates
 
-- [Audit evidence index](https://fullypowered.ai/workflows/audit-evidence-index/)
-- [Dataset profile](https://fullypowered.ai/workflows/dataset-profile/)
-- [Metric definition reconciliation](https://fullypowered.ai/workflows/metric-definition-reconciliation/)
+- [Audit evidence index](https://fullypowered.ai/workflows/audit-evidence-index/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-emissions-activity-data-schedule&from=gh-emissions-activity-data-schedule)
+- [Dataset profile](https://fullypowered.ai/workflows/dataset-profile/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-emissions-activity-data-schedule&from=gh-emissions-activity-data-schedule)
+- [Metric definition reconciliation](https://fullypowered.ai/workflows/metric-definition-reconciliation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-emissions-activity-data-schedule&from=gh-emissions-activity-data-schedule)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-emissions-activity-data-schedule&from=gh-emissions-activity-data-schedule).

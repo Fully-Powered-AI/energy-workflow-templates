@@ -1,14 +1,56 @@
-# FullyPowered Workflow Templates: Energy
+# AI workflow templates for energy operations, asset and finance teams
 
-Every asset, visit and statement accounted for. These workflow templates are written for the people who run the business side of energy projects and services. They prepare the packets, reconciliations and checks from your own records. They make no engineering, safety or regulatory determination and touch no control system.
+FullyPowered Workflow Templates for energy businesses turn the AI your company already pays for into a team that knows how the work is done: an asset accountant with the register update matched to invoices and ledger, a billing manager with field service invoice lines tied to signed tickets, a maintenance supervisor with the service visit packet prepared from the logs. 6 workflow templates, made to be customized and deployed. All plain Markdown, all free, MIT license.
 
-**These are templates, made to be customized and deployed.** They are examples and a starting point, not a complete list: copy one, change it to fit how your team does the work, and run it in the AI you already pay for.
+We are FullyPowered AI. We build AI workflows for companies, and these are the templates we start from. We publish them because a good starting point should be open to everyone. Copy one. Change it. Make it yours.
 
-**FullyPowered AI customizes and builds AI workflows that run in ChatGPT, Claude, Copilot and Gemini**, including ones that run several steps. [More examples for energy businesses](https://fullypowered.ai/industries/energy/?from=gh-energy) · [Have one built for your team](https://fullypowered.ai/pricing/?from=gh-energy)
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** These are templates, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See more examples for energy businesses](https://fullypowered.ai/industries/energy/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-readme&from=gh-energy-readme) · [Have one built for your team](https://fullypowered.ai/pricing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-readme&from=gh-energy-readme) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-This repository holds 6 workflow templates for operations, asset and finance staff at an energy business. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
+**Who this is for**
 
-## The workflow templates
+- Owners and executives of energy businesses who want the AI they pay for doing real operating work.
+- Operations, asset and finance leads who want a workflow their team can run this week.
+- The analyst, accountant or supervisor who gets a precise way to prepare the work and still decides.
+
+**What these are for**
+
+- **Your best way of doing it, for the whole team.** One piece of work, written down precisely enough that an assistant prepares it the same way every time.
+- **Work you can check.** Every template says what it needs, what it produces, what it checked and what it could not.
+- **A person decides.** Anything that sends, posts, pays or changes a record waits for someone to approve it.
+- **Tied into your business systems.** A workflow can be designed to pull from the systems your company already runs, and even push data back into them, with guardrails and a person approving. [Browse the Connectors Directory](https://fullypowered.ai/connectors/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-readme&from=gh-energy-readme).
+- **Free, open and portable.** MIT-licensed plain instructions that run in the assistant or agent your team already uses: ChatGPT, Claude, Claude Code, Claude Cowork, Codex, Copilot, Gemini, Grok, Perplexity.
+
+**Quick start**
+
+1. **Prepare a service visit packet in one sitting.** Open ChatGPT, Claude, Copilot or Gemini. Copy the text below into a new chat. Replace the square brackets with your own exports and notes, then paste them in. You decide what goes in, and you review what comes back.
+
+   ```text
+   You prepare a service visit work packet for a maintenance supervisor. I will give you: the site, the asset ID, the planned visit date and today's date; the asset register line; the approved work scope; the maintenance log; the parts requests; and the access notes, all as pasted tables. [Paste them here.] Use only the rows for that asset. Show the approved scope exactly as supplied. List reported symptoms and past visits, newest first, with who verified each report. Put any note containing words like smoke, burning or leak at the top. List open parts requests with their age and expected date, and access notes with their confirmation date. Turn every gap into a numbered question for a named role. Do not judge any equipment condition, write any technical instruction, order, send or change anything. If a column is missing, stop and ask me. I approve the scope, staffing and work plan.
+   ```
+
+2. Read what comes back. It marks what it checked and what is left for you. What the packet looks like:
+
+   ```text
+   **1. Attention first**
+
+   L-406, 2026-10-12, T-07: "Burning smell reported at nacelle ladder". Matched: "burning". See question 3.
+
+   **2. Approved scope, as supplied**
+
+   S1 Inspect yaw drive and report findings. Instruction: DOC-YAW-12. Approved: by maintenance supervisor on 2026-11-04.
+   S2 Replace pitch battery pack on blade 2. Instruction: DOC-PIT-03. Approved: by maintenance supervisor on 2026-11-04. Open request P-11 names the same part, expected 2026-11-20.
+   S3 Re-check gearbox oil sample point. Instruction: none supplied. Approved: by maintenance supervisor on 2026-11-04. FLAG: no instruction reference. See question 1.
+   S4 Clean nacelle filters. Instruction: DOC-NAC-01. Approved: not approved, missing: by and on. FLAG: not approved. See question 2.
+   ```
+
+3. Stop there. You will know if this is for you. When you want it fitted to your company, or built into your agents, [that is what we do](https://fullypowered.ai/pricing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-readme&from=gh-energy-readme).
+
+A person starts each workflow, supplies the records and makes every decision; the template only prepares and checks.
+
+These are examples and a starting point, made to be changed to fit how your business works. Work that is not here can still be built for you, as one step or many.
+
+## The energy workflow templates here today
 
 - **[Asset register to invoice reconciliation](asset-register-to-invoice-reconciliation/)**: When new equipment, transfers or retirements must reach the reporting pack, the asset accountant gets a proposed register update matched to purchase records, commissioning evidence and the ledger, with duplicate IDs, unmatched invoices and uncertain in-service dates listed.
 - **[Asset replacement options comparison](asset-replacement-options-comparison/)**: When an aging asset has more than one proposed replacement or upgrade, the finance lead and the engineering owner get one workbook: the supplied costs, operating assumptions and lives on one basis, with price-basis gaps, unverified savings and open sensitivity questions marked. It recommends no spend.
@@ -35,10 +77,10 @@ Each folder says exactly what was checked and when: who wrote it, that its sourc
 
 ## More workflow templates
 
-The [FullyPowered Workflows Directory](https://fullypowered.ai/workflows/) lists every workflow template across functions and industries, with search. A machine-readable list of this repository is in [index.json](index.json).
+The [FullyPowered Workflows Directory](https://fullypowered.ai/workflows/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-readme&from=gh-energy-readme) lists every workflow template across functions and industries, with search. A machine-readable list of this repository is in [index.json](index.json).
 
-For the work these templates come from, by area of the business and by task, see [AI workflow examples for energy businesses](https://fullypowered.ai/industries/energy/).
+For the work these templates come from, by area of the business and by task, see [AI workflow examples for energy businesses](https://fullypowered.ai/industries/energy/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-readme&from=gh-energy-readme).
 
 ## Licence and credits
 
-MIT, in [LICENSE](LICENSE) and in every folder. Each folder's SOURCES.md names what the workflow template drew on. Published by [FullyPowered AI](https://fullypowered.ai/).
+MIT, in [LICENSE](LICENSE) and in every folder. Each folder's SOURCES.md names what the workflow template drew on. Published by [FullyPowered AI](https://fullypowered.ai/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-readme&from=gh-energy-readme).

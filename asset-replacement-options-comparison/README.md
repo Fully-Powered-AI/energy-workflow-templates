@@ -1,10 +1,17 @@
 # Asset replacement options comparison
 
-When an aging asset has more than one proposed replacement or upgrade, the finance lead and the engineering owner get one workbook: the supplied costs, operating assumptions and lives on one basis, with price-basis gaps, unverified savings and open sensitivity questions marked. It recommends no spend.
+Put every replacement proposal for an aging asset in one workbook on one basis, with gaps and unverified savings marked. People decide; no spend is advised
 
-*Workflow template · Energy · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/asset-replacement-options-comparison/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Asset replacement options comparison on our website](https://fullypowered.ai/workflows/asset-replacement-options-comparison/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-replacement-options-comparison&from=gh-asset-replacement-options-comparison) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/asset-replacement-options-comparison/?from=gh-asset-replacement-options-comparison)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Energy · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/asset-replacement-options-comparison/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-replacement-options-comparison&from=gh-asset-replacement-options-comparison)*
 
 ## The outcome
 
@@ -35,13 +42,13 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Finance and accounting](https://fullypowered.ai/functions/finance-and-accounting/), which owns the hurdle rate, the tax treatment and the case that goes to the investment committee.
-- [Energy](https://fullypowered.ai/industries/energy/), where generating, pumping and network assets run for decades and the replacement question comes with several competing proposals.
-- [Manufacturing](https://fullypowered.ai/industries/manufacturing/), where a worn line or press has a repair, a rebuild and a new machine on the table.
-- [Real estate](https://fullypowered.ai/industries/real-estate/), where boilers, chillers and lifts reach the end of their lives and owners compare repair against replacement.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/), where the replacement decision belongs to people who know the asset well and want the numbers on one page.
+- [Finance and accounting](https://fullypowered.ai/functions/finance-and-accounting/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-replacement-options-comparison&from=gh-asset-replacement-options-comparison), which owns the hurdle rate, the tax treatment and the case that goes to the investment committee.
+- [Energy](https://fullypowered.ai/industries/energy/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-replacement-options-comparison&from=gh-asset-replacement-options-comparison), where generating, pumping and network assets run for decades and the replacement question comes with several competing proposals.
+- [Manufacturing](https://fullypowered.ai/industries/manufacturing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-replacement-options-comparison&from=gh-asset-replacement-options-comparison), where a worn line or press has a repair, a rebuild and a new machine on the table.
+- [Real estate](https://fullypowered.ai/industries/real-estate/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-replacement-options-comparison&from=gh-asset-replacement-options-comparison), where boilers, chillers and lifts reach the end of their lives and owners compare repair against replacement.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-replacement-options-comparison&from=gh-asset-replacement-options-comparison), where the replacement decision belongs to people who know the asset well and want the numbers on one page.
 
-It sits beside three neighbours without doing their work. [Vendor quote comparison](https://fullypowered.ai/workflows/vendor-quote-comparison/) compares suppliers against agreed criteria before a purchase. [Business line investment review](https://fullypowered.ai/workflows/business-line-investment-review/) looks at a whole line of business. [Annual operating budget](https://fullypowered.ai/workflows/annual-operating-budget/) builds the year's plan. This one takes proposals that already exist for one aging asset and puts their numbers side by side.
+It sits beside three neighbours without doing their work. [Vendor quote comparison](https://fullypowered.ai/workflows/vendor-quote-comparison/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-replacement-options-comparison&from=gh-asset-replacement-options-comparison) compares suppliers against agreed criteria before a purchase. [Business line investment review](https://fullypowered.ai/workflows/business-line-investment-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-replacement-options-comparison&from=gh-asset-replacement-options-comparison) looks at a whole line of business. [Annual operating budget](https://fullypowered.ai/workflows/annual-operating-budget/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-replacement-options-comparison&from=gh-asset-replacement-options-comparison) builds the year's plan. This one takes proposals that already exist for one aging asset and puts their numbers side by side.
 
 ## What has to change for your company
 
@@ -51,7 +58,7 @@ Use your own hurdle rate, price year and escalation rate, and say whether your r
 
 FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026, and the record is published beside it. That run was not blind, because the runner had seen the example's published workbook before producing its own. It has not been tested in a client environment or as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on a past replacement decision your finance lead and engineering owner remember well, plus hard cases written in advance, each with its expected behavior: an option priced a year earlier, an installation left out of a quote, a saving with no evidence, a residual value with no source, two options with very different lives. The finance lead recomputes every figure before anyone relies on the workbook. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) builds that test set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on a past replacement decision your finance lead and engineering owner remember well, plus hard cases written in advance, each with its expected behavior: an option priced a year earlier, an installation left out of a quote, a saving with no evidence, a residual value with no source, two options with very different lives. The finance lead recomputes every figure before anyone relies on the workbook. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-replacement-options-comparison&from=gh-asset-replacement-options-comparison) builds that test set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-replacement-options-comparison&from=gh-asset-replacement-options-comparison) describes the record we keep.
 
 - Written by FullyPowered AI.
 - Sources and rights reviewed.
@@ -78,10 +85,10 @@ Testing in your environment means running it on a past replacement decision your
 
 ## Related workflow templates
 
-- [Vendor quote comparison](https://fullypowered.ai/workflows/vendor-quote-comparison/)
-- [Business line investment review](https://fullypowered.ai/workflows/business-line-investment-review/)
-- [Annual operating budget](https://fullypowered.ai/workflows/annual-operating-budget/)
+- [Vendor quote comparison](https://fullypowered.ai/workflows/vendor-quote-comparison/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-replacement-options-comparison&from=gh-asset-replacement-options-comparison)
+- [Business line investment review](https://fullypowered.ai/workflows/business-line-investment-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-replacement-options-comparison&from=gh-asset-replacement-options-comparison)
+- [Annual operating budget](https://fullypowered.ai/workflows/annual-operating-budget/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-replacement-options-comparison&from=gh-asset-replacement-options-comparison)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-replacement-options-comparison&from=gh-asset-replacement-options-comparison).

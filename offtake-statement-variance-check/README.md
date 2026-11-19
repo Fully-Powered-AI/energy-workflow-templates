@@ -1,10 +1,17 @@
 # Offtake statement variance check
 
-When a buyer's offtake statement differs from the energy sales ledger, the settlement analyst gets one comparison: volumes, periods, prices and adjustments set against the metered-volume export and the agreed price inputs, each discrepancy traced to its source. Nothing is disputed or adjusted.
+Compare a buyer's offtake statement with the sales ledger and meter volumes, with each discrepancy traced to its source. The analyst decides.
 
-*Workflow template · Energy · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/offtake-statement-variance-check/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Offtake statement variance check on our website](https://fullypowered.ai/workflows/offtake-statement-variance-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-offtake-statement-variance-check&from=gh-offtake-statement-variance-check) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/offtake-statement-variance-check/?from=gh-offtake-statement-variance-check)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Energy · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/offtake-statement-variance-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-offtake-statement-variance-check&from=gh-offtake-statement-variance-check)*
 
 ## The outcome
 
@@ -41,13 +48,13 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Energy](https://fullypowered.ai/industries/energy/), where a buyer's statement, the metered volumes and the ledger are produced by different teams and rarely agree the first time.
-- [Finance and accounting](https://fullypowered.ai/functions/finance-and-accounting/), which owns the sales ledger and any adjustment that follows.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/), where the check has lived with one careful analyst and should be repeatable by anyone.
-- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/), when the number of buyers and delivery points outgrows hand comparison.
-- [Private equity & portfolios](https://fullypowered.ai/situations/private-equity-and-portfolios/), where an owner wants statement differences explained before cash is booked.
+- [Energy](https://fullypowered.ai/industries/energy/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-offtake-statement-variance-check&from=gh-offtake-statement-variance-check), where a buyer's statement, the metered volumes and the ledger are produced by different teams and rarely agree the first time.
+- [Finance and accounting](https://fullypowered.ai/functions/finance-and-accounting/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-offtake-statement-variance-check&from=gh-offtake-statement-variance-check), which owns the sales ledger and any adjustment that follows.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-offtake-statement-variance-check&from=gh-offtake-statement-variance-check), where the check has lived with one careful analyst and should be repeatable by anyone.
+- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-offtake-statement-variance-check&from=gh-offtake-statement-variance-check), when the number of buyers and delivery points outgrows hand comparison.
+- [Private equity & portfolios](https://fullypowered.ai/situations/private-equity-and-portfolios/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-offtake-statement-variance-check&from=gh-offtake-statement-variance-check), where an owner wants statement differences explained before cash is booked.
 
-It stays apart from [client schedule to ledger reconciliation](https://fullypowered.ai/workflows/client-schedule-to-ledger-reconciliation/), which agrees a client's subledger schedule to its trial balance, from [receivables exception review](https://fullypowered.ai/workflows/receivables-exception-review/), which decides what to do with individual receipts, and from [payout reconciliation for an online store](https://fullypowered.ai/workflows/payout-reconciliation-for-an-online-store/), which agrees platform payouts to orders. This one checks a buyer's energy statement against the ledger and the meter data.
+It stays apart from [client schedule to ledger reconciliation](https://fullypowered.ai/workflows/client-schedule-to-ledger-reconciliation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-offtake-statement-variance-check&from=gh-offtake-statement-variance-check), which agrees a client's subledger schedule to its trial balance, from [receivables exception review](https://fullypowered.ai/workflows/receivables-exception-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-offtake-statement-variance-check&from=gh-offtake-statement-variance-check), which decides what to do with individual receipts, and from [payout reconciliation for an online store](https://fullypowered.ai/workflows/payout-reconciliation-for-an-online-store/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-offtake-statement-variance-check&from=gh-offtake-statement-variance-check), which agrees platform payouts to orders. This one checks a buyer's energy statement against the ledger and the meter data.
 
 ## What has to change for your company
 
@@ -62,7 +69,7 @@ It stays apart from [client schedule to ledger reconciliation](https://fullypowe
 
 FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026; the record is published with it. The points that run found open were settled the same day, after an independent review, in small wording changes to the instructions that were not run again. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on a past statement your analysts have already worked through by hand, plus hard cases written in advance, each with the expected result: a missing interval, a revised meter read, a price that differs by transposed digits, an adjustment with no schedule entry, a unit that does not match. The settlement analyst compares every figure with the settled workpaper before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on a past statement your analysts have already worked through by hand, plus hard cases written in advance, each with the expected result: a missing interval, a revised meter read, a price that differs by transposed digits, an adjustment with no schedule entry, a unit that does not match. The settlement analyst compares every figure with the settled workpaper before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-offtake-statement-variance-check&from=gh-offtake-statement-variance-check) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-offtake-statement-variance-check&from=gh-offtake-statement-variance-check) describes the record we keep.
 
 - Written by FullyPowered AI.
 - Sources and rights reviewed.
@@ -89,10 +96,10 @@ Testing in your environment means running it on a past statement your analysts h
 
 ## Related workflow templates
 
-- [Client schedule to ledger reconciliation](https://fullypowered.ai/workflows/client-schedule-to-ledger-reconciliation/)
-- [Receivables exception review](https://fullypowered.ai/workflows/receivables-exception-review/)
-- [Payout reconciliation for an online store](https://fullypowered.ai/workflows/payout-reconciliation-for-an-online-store/)
+- [Client schedule to ledger reconciliation](https://fullypowered.ai/workflows/client-schedule-to-ledger-reconciliation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-offtake-statement-variance-check&from=gh-offtake-statement-variance-check)
+- [Receivables exception review](https://fullypowered.ai/workflows/receivables-exception-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-offtake-statement-variance-check&from=gh-offtake-statement-variance-check)
+- [Payout reconciliation for an online store](https://fullypowered.ai/workflows/payout-reconciliation-for-an-online-store/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-offtake-statement-variance-check&from=gh-offtake-statement-variance-check)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-offtake-statement-variance-check&from=gh-offtake-statement-variance-check).

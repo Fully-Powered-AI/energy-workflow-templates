@@ -1,10 +1,17 @@
 # Field service invoice evidence check
 
-When completed field work is ready for invoicing, the billing manager gets draft billing lines that tie the agreed rates to crew time, equipment use, mobilization and signed service tickets. Unsigned tickets, overlapping equipment days and unsupported extras are listed as exceptions.
+Turn completed field work into draft billing lines tied to rates and signed tickets, with exceptions listed. The billing manager approves every charge.
 
-*Workflow template · Energy · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/field-service-invoice-evidence-check/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Field service invoice evidence check on our website](https://fullypowered.ai/workflows/field-service-invoice-evidence-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-field-service-invoice-evidence-check&from=gh-field-service-invoice-evidence-check) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/field-service-invoice-evidence-check/?from=gh-field-service-invoice-evidence-check)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Energy · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/field-service-invoice-evidence-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-field-service-invoice-evidence-check&from=gh-field-service-invoice-evidence-check)*
 
 ## The outcome
 
@@ -35,14 +42,14 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Finance and accounting](https://fullypowered.ai/functions/finance-and-accounting/): the step between finished field work and the invoice, run the same way whoever is on the billing desk.
-- [Customer success and account management](https://fullypowered.ai/functions/customer-success-and-account-management/): the account lead gets the disputed items with their records before the customer raises them.
-- [Energy](https://fullypowered.ai/industries/energy/): service crews, rented equipment and mobilization charges billed against a rate sheet and a purchase order.
-- [Construction](https://fullypowered.ai/industries/construction/): site service work billed on tickets and day rates.
-- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/): when the number of tickets has outgrown a read-through by eye.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/): when billing has been done from the same folders for years and the same few errors keep coming back.
+- [Finance and accounting](https://fullypowered.ai/functions/finance-and-accounting/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-field-service-invoice-evidence-check&from=gh-field-service-invoice-evidence-check): the step between finished field work and the invoice, run the same way whoever is on the billing desk.
+- [Customer success and account management](https://fullypowered.ai/functions/customer-success-and-account-management/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-field-service-invoice-evidence-check&from=gh-field-service-invoice-evidence-check): the account lead gets the disputed items with their records before the customer raises them.
+- [Energy](https://fullypowered.ai/industries/energy/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-field-service-invoice-evidence-check&from=gh-field-service-invoice-evidence-check): service crews, rented equipment and mobilization charges billed against a rate sheet and a purchase order.
+- [Construction](https://fullypowered.ai/industries/construction/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-field-service-invoice-evidence-check&from=gh-field-service-invoice-evidence-check): site service work billed on tickets and day rates.
+- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-field-service-invoice-evidence-check&from=gh-field-service-invoice-evidence-check): when the number of tickets has outgrown a read-through by eye.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-field-service-invoice-evidence-check&from=gh-field-service-invoice-evidence-check): when billing has been done from the same folders for years and the same few errors keep coming back.
 
-It stays apart from [pay application line check](https://fullypowered.ai/workflows/pay-application-line-check/), which checks a contractor's progress billing against a schedule of values; from [client billing summary](https://fullypowered.ai/workflows/client-billing-summary/), which prepares a summary of fees for a client to read; and from [carrier freight invoice check](https://fullypowered.ai/workflows/carrier-freight-invoice-check/), which checks an invoice you received against shipments. This workflow template prepares the lines of an invoice you are about to send.
+It stays apart from [pay application line check](https://fullypowered.ai/workflows/pay-application-line-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-field-service-invoice-evidence-check&from=gh-field-service-invoice-evidence-check), which checks a contractor's progress billing against a schedule of values; from [client billing summary](https://fullypowered.ai/workflows/client-billing-summary/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-field-service-invoice-evidence-check&from=gh-field-service-invoice-evidence-check), which prepares a summary of fees for a client to read; and from [carrier freight invoice check](https://fullypowered.ai/workflows/carrier-freight-invoice-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-field-service-invoice-evidence-check&from=gh-field-service-invoice-evidence-check), which checks an invoice you received against shipments. This workflow template prepares the lines of an invoice you are about to send.
 
 ## What has to change for your company
 
@@ -57,7 +64,7 @@ It stays apart from [pay application line check](https://fullypowered.ai/workflo
 
 FullyPowered AI wrote this workflow template in its own words. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026, after its review edits, and the record is published with it. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on a past billing your billing manager already checked by hand, plus hard cases written in advance, each with its expected behavior: a renamed column, an unsigned ticket, one machine on two tickets for one day, an extra with no approval reference, a record on a ticket that is not in the file. The billing manager checks every figure against the rate sheet and the records before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) builds that test set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on a past billing your billing manager already checked by hand, plus hard cases written in advance, each with its expected behavior: a renamed column, an unsigned ticket, one machine on two tickets for one day, an extra with no approval reference, a record on a ticket that is not in the file. The billing manager checks every figure against the rate sheet and the records before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-field-service-invoice-evidence-check&from=gh-field-service-invoice-evidence-check) builds that test set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-field-service-invoice-evidence-check&from=gh-field-service-invoice-evidence-check) describes the record we keep.
 
 - Written by FullyPowered AI.
 - Sources and rights reviewed.
@@ -84,10 +91,10 @@ Testing in your environment means running it on a past billing your billing mana
 
 ## Related workflow templates
 
-- [Pay application line check](https://fullypowered.ai/workflows/pay-application-line-check/)
-- [Client billing summary](https://fullypowered.ai/workflows/client-billing-summary/)
-- [Carrier freight invoice check](https://fullypowered.ai/workflows/carrier-freight-invoice-check/)
+- [Pay application line check](https://fullypowered.ai/workflows/pay-application-line-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-field-service-invoice-evidence-check&from=gh-field-service-invoice-evidence-check)
+- [Client billing summary](https://fullypowered.ai/workflows/client-billing-summary/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-field-service-invoice-evidence-check&from=gh-field-service-invoice-evidence-check)
+- [Carrier freight invoice check](https://fullypowered.ai/workflows/carrier-freight-invoice-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-field-service-invoice-evidence-check&from=gh-field-service-invoice-evidence-check)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-field-service-invoice-evidence-check&from=gh-field-service-invoice-evidence-check).

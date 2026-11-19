@@ -1,10 +1,17 @@
 # Asset register to invoice reconciliation
 
-When new equipment, transfers or retirements must reach the reporting pack, the asset accountant gets a proposed register update matched to purchase records, commissioning evidence and the ledger, with duplicate IDs, unmatched invoices and uncertain in-service dates listed.
+Match the equipment register to invoices, commissioning papers and the ledger, with duplicates and uncertain dates listed. A person approves.
 
-*Workflow template · Energy · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/asset-register-to-invoice-reconciliation/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Asset register to invoice reconciliation on our website](https://fullypowered.ai/workflows/asset-register-to-invoice-reconciliation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-register-to-invoice-reconciliation&from=gh-asset-register-to-invoice-reconciliat) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/asset-register-to-invoice-reconciliation/?from=gh-asset-register-to-invoice-reconciliat)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Energy · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/asset-register-to-invoice-reconciliation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-register-to-invoice-reconciliation&from=gh-asset-register-to-invoice-reconciliat)*
 
 ## The outcome
 
@@ -36,14 +43,14 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Energy](https://fullypowered.ai/industries/energy/): generation, storage and network equipment bought in batches, commissioned later and moved between sites.
-- [Construction](https://fullypowered.ai/industries/construction/): plant and site equipment that is bought, hired out, moved between sites and retired.
-- [Logistics and trade](https://fullypowered.ai/industries/logistics-and-trade/): vehicles, handling equipment and warehouse fit-out that reach the books before anyone checks the serial numbers.
-- [Finance and accounting](https://fullypowered.ai/functions/finance-and-accounting/), which owns the ledger and the reporting pack.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/), where the register has been kept by several people over several years.
-- [Acquisitions and integration](https://fullypowered.ai/situations/acquisitions-and-integration/), when two registers and two ledgers have to be brought into one.
+- [Energy](https://fullypowered.ai/industries/energy/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-register-to-invoice-reconciliation&from=gh-asset-register-to-invoice-reconciliat): generation, storage and network equipment bought in batches, commissioned later and moved between sites.
+- [Construction](https://fullypowered.ai/industries/construction/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-register-to-invoice-reconciliation&from=gh-asset-register-to-invoice-reconciliat): plant and site equipment that is bought, hired out, moved between sites and retired.
+- [Logistics and trade](https://fullypowered.ai/industries/logistics-and-trade/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-register-to-invoice-reconciliation&from=gh-asset-register-to-invoice-reconciliat): vehicles, handling equipment and warehouse fit-out that reach the books before anyone checks the serial numbers.
+- [Finance and accounting](https://fullypowered.ai/functions/finance-and-accounting/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-register-to-invoice-reconciliation&from=gh-asset-register-to-invoice-reconciliat), which owns the ledger and the reporting pack.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-register-to-invoice-reconciliation&from=gh-asset-register-to-invoice-reconciliat), where the register has been kept by several people over several years.
+- [Acquisitions and integration](https://fullypowered.ai/situations/acquisitions-and-integration/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-register-to-invoice-reconciliation&from=gh-asset-register-to-invoice-reconciliat), when two registers and two ledgers have to be brought into one.
 
-It stays apart from three neighbours. [Bank reconciliation preparation](https://fullypowered.ai/workflows/bank-reconciliation-preparation/) matches a bank statement to the books. [Stock count reconciliation](https://fullypowered.ai/workflows/stock-count-reconciliation/) compares a physical count of goods with the stock records. [Client schedule to ledger reconciliation](https://fullypowered.ai/workflows/client-schedule-to-ledger-reconciliation/) ties a client-supplied schedule to the ledger. This one matches equipment records to invoices, commissioning papers and the fixed-asset ledger.
+It stays apart from three neighbours. [Bank reconciliation preparation](https://fullypowered.ai/workflows/bank-reconciliation-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-register-to-invoice-reconciliation&from=gh-asset-register-to-invoice-reconciliat) matches a bank statement to the books. [Stock count reconciliation](https://fullypowered.ai/workflows/stock-count-reconciliation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-register-to-invoice-reconciliation&from=gh-asset-register-to-invoice-reconciliat) compares a physical count of goods with the stock records. [Client schedule to ledger reconciliation](https://fullypowered.ai/workflows/client-schedule-to-ledger-reconciliation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-register-to-invoice-reconciliation&from=gh-asset-register-to-invoice-reconciliat) ties a client-supplied schedule to the ledger. This one matches equipment records to invoices, commissioning papers and the fixed-asset ledger.
 
 ## What has to change for your company
 
@@ -58,7 +65,7 @@ It stays apart from three neighbours. [Bank reconciliation preparation](https://
 
 FullyPowered AI wrote this workflow template in its own words from its own published map of the work. It was editorially reviewed on 10 November 2026. It was tried once on its invented example, in Claude on 10 November 2026, and the record is published with it. It has not been tested in a client environment or as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on a past period your asset accountant remembers well, with hard cases written in advance: a renamed column, an ID used twice, an invoice line with no serial number, a commissioning date that differs from the ledger, a retirement the ledger never recorded. The asset accountant checks every line against the exports before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on a past period your asset accountant remembers well, with hard cases written in advance: a renamed column, an ID used twice, an invoice line with no serial number, a commissioning date that differs from the ledger, a retirement the ledger never recorded. The asset accountant checks every line against the exports before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-register-to-invoice-reconciliation&from=gh-asset-register-to-invoice-reconciliat) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-register-to-invoice-reconciliation&from=gh-asset-register-to-invoice-reconciliat) describes the record we keep.
 
 - Written by FullyPowered AI.
 - Sources and rights reviewed.
@@ -85,10 +92,10 @@ Testing in your environment means running it on a past period your asset account
 
 ## Related workflow templates
 
-- [Bank reconciliation preparation](https://fullypowered.ai/workflows/bank-reconciliation-preparation/)
-- [Stock count reconciliation](https://fullypowered.ai/workflows/stock-count-reconciliation/)
-- [Client schedule to ledger reconciliation](https://fullypowered.ai/workflows/client-schedule-to-ledger-reconciliation/)
+- [Bank reconciliation preparation](https://fullypowered.ai/workflows/bank-reconciliation-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-register-to-invoice-reconciliation&from=gh-asset-register-to-invoice-reconciliat)
+- [Stock count reconciliation](https://fullypowered.ai/workflows/stock-count-reconciliation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-register-to-invoice-reconciliation&from=gh-asset-register-to-invoice-reconciliat)
+- [Client schedule to ledger reconciliation](https://fullypowered.ai/workflows/client-schedule-to-ledger-reconciliation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-register-to-invoice-reconciliation&from=gh-asset-register-to-invoice-reconciliat)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-register-to-invoice-reconciliation&from=gh-asset-register-to-invoice-reconciliat).
