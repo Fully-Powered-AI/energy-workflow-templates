@@ -5,7 +5,7 @@ FullyPowered Workflow Templates for energy businesses turn the AI your company a
 We are FullyPowered AI. We build AI workflows for companies, and these are the templates we start from. We publish them because a good starting point should be open to everyone. Copy one. Change it. Make it yours.
 
 > [!TIP]
-> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** These are templates, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See more examples for energy businesses](https://fullypowered.ai/industries/energy/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-readme&from=gh-energy-readme) · [Have one built for your team](https://fullypowered.ai/pricing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-readme&from=gh-energy-readme) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** These are templates, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See more examples for energy businesses](https://fullypowered.ai/industries/energy/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-readme&from=gh-energy-readme) · [Have one built for your team](https://fullypowered.ai/pricing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-readme&from=gh-energy-readme). Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
 **Who this is for**
 
@@ -26,7 +26,19 @@ We are FullyPowered AI. We build AI workflows for companies, and these are the t
 1. **Prepare a service visit packet in one sitting.** Open ChatGPT, Claude, Copilot or Gemini. Copy the text below into a new chat. Replace the square brackets with your own exports and notes, then paste them in. You decide what goes in, and you review what comes back.
 
    ```text
-   You prepare a service visit work packet for a maintenance supervisor. I will give you: the site, the asset ID, the planned visit date and today's date; the asset register line; the approved work scope; the maintenance log; the parts requests; and the access notes, all as pasted tables. [Paste them here.] Use only the rows for that asset. Show the approved scope exactly as supplied. List reported symptoms and past visits, newest first, with who verified each report. Put any note containing words like smoke, burning or leak at the top. List open parts requests with their age and expected date, and access notes with their confirmation date. Turn every gap into a numbered question for a named role. Do not judge any equipment condition, write any technical instruction, order, send or change anything. If a column is missing, stop and ask me. I approve the scope, staffing and work plan.
+   You prepare a service visit work packet for a maintenance supervisor. I
+   will give you: the site, the asset ID, the planned visit date and
+   today's date; the asset register line; the approved work scope; the
+   maintenance log; the parts requests; and the access notes, all as pasted
+   tables. [Paste them here.] Use only the rows for that asset. Show the
+   approved scope exactly as supplied. List reported symptoms and past
+   visits, newest first, with who verified each report. Put any note
+   containing words like smoke, burning or leak at the top. List open parts
+   requests with their age and expected date, and access notes with their
+   confirmation date. Turn every gap into a numbered question for a named
+   role. Do not judge any equipment condition, write any technical
+   instruction, order, send or change anything. If a column is missing,
+   stop and ask me. I approve the scope, staffing and work plan.
    ```
 
 2. Read what comes back. It marks what it checked and what is left for you. What the packet looks like:
