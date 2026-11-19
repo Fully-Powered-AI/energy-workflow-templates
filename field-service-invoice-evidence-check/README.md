@@ -27,7 +27,7 @@ The billing manager, or a billing clerk working for them, starts it when a custo
 
 ## What they supply
 
-- The service tickets for the period, with the customer's purchase order number and who signed each.
+- The service tickets for the period, exported from your field service system, with the customer's purchase order number and who signed each.
 - The rate sheet: item, unit and rate.
 - The field records: crew time, equipment use, mobilization and any extras, each tied to a ticket.
 - The settings: customer, purchase order number and amount if known, billing period and the roles that approve and resolve.
