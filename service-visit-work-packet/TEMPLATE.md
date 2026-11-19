@@ -228,4 +228,4 @@ person's approval.
 
 ## Version notes
 
-- 0.1.0, 10 November 2026. Written by FullyPowered AI. Tried once on its invented example, on an earlier wording of the instructions and output format, in Claude on 10 November 2026, with the record published beside it. Not yet tested in a client environment, and not yet tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+- 0.1.0, 10 November 2026. Written by FullyPowered AI. Tried once on its example, on an earlier wording of the instructions and output format, in Claude on 10 November 2026, with the record published beside it. Not yet tested in a client environment, and not yet tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.

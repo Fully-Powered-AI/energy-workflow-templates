@@ -1,10 +1,10 @@
-# Emissions activity data schedule: tried on its invented example
+# Emissions activity data schedule: tried on its example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-This is the record of a second run, made after a reviewer's findings led to changes in the instruction block, the procedure and the output format. It replaces the record of the first run. The inputs were the invented example in `public/example.md` (Tarnbeck Energy Services, October 2026). The five input files are unchanged from the first run; only the company name was changed, to a different invented name. No client data was used. The template was followed once, as written: the fenced instruction block and the output format. One limit on this run: the same session that revised the template had already read the earlier example output, so the run is not blind; I checked each section against the inputs and the rules rather than copying.
+This is the record of a second run, made after a reviewer's findings led to changes in the instruction block, the procedure and the output format. It replaces the record of the first run. The inputs were the example in `public/example.md` (Tarnbeck Energy Services, October 2026). The five input files are unchanged from the first run; only the company name was changed, to a different sample name. No client data was used. The template was followed once, as written: the fenced instruction block and the output format. One limit on this run: the same session that revised the template had already read the earlier example output, so the run is not blind; I checked each section against the inputs and the rules rather than copying.
 
 ## What came out
 

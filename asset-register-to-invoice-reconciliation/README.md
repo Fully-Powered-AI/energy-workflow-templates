@@ -8,7 +8,7 @@ Match the equipment register to invoices, commissioning papers and the ledger, w
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Energy · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/asset-register-to-invoice-reconciliation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-register-to-invoice-reconciliation&from=gh-asset-register-to-invoice-reconciliat)*
@@ -39,7 +39,7 @@ Each file's column headers are checked before anything else. If one does not mat
 
 One reconciliation in a fixed order: the checks made, the duplicate IDs held, an asset-by-asset comparison of cost, the purchase lines tied to nothing, the in-service dates supported and uncertain, the transfers and retirements the ledger does not yet reflect, the proposed register update with two blank approval lines on each proposal, and the questions for the asset manager and the asset accountant. A summary line gives the counts and the totals.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -63,7 +63,7 @@ It stays apart from three neighbours. [Bank reconciliation preparation](https://
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template in its own words from its own published map of the work. It was editorially reviewed on 10 November 2026. It was tried once on its invented example, in Claude on 10 November 2026, and the record is published with it. It has not been tested in a client environment or as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template in its own words from its own published map of the work. It was editorially reviewed on 10 November 2026. It was tried once on its example, in Claude on 10 November 2026, and the record is published with it. It has not been tested in a client environment or as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your environment means running it on a past period your asset accountant remembers well, with hard cases written in advance: a renamed column, an ID used twice, an invoice line with no serial number, a commissioning date that differs from the ledger, a retirement the ledger never recorded. The asset accountant checks every line against the exports before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-register-to-invoice-reconciliation&from=gh-asset-register-to-invoice-reconciliat) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-asset-register-to-invoice-reconciliation&from=gh-asset-register-to-invoice-reconciliat) describes the record we keep.
 
@@ -71,13 +71,13 @@ Testing in your environment means running it on a past period your asset account
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

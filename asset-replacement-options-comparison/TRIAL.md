@@ -1,10 +1,10 @@
-# Asset replacement options comparison: tried on its invented example
+# Asset replacement options comparison: tried on its example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-I did not write this template. I ran it once on its own invented example, following the fenced instruction block and the output format. The inputs are the invented example only (the pump set P-3 at the invented Example Valley Biomass Plant); no client data was used.
+I did not write this template. I ran it once on its own example, following the fenced instruction block and the output format. The inputs are the example only (the pump set P-3 at the Example Valley Biomass Plant); no client data was used.
 
 One caveat about the method. I meant to read only the inputs before producing the output, but my first read of the example file printed the whole file, including its published workbook. So this is not a blind comparison. To limit the effect, I did not copy the example: I computed every figure with a short script from the inputs and the formulas in the template, then wrote the workbook.
 
@@ -42,4 +42,4 @@ All eight sheets were produced, in the specified order and format, ending with t
 
 ## Second pass after the template was revised
 
-After an independent review the template was revised: the "price year differs" flag, the restatement and annuity decimals, the disagreement rule between `price_basis` and a "not in quote" column, the money basis of the levelling amount, the per-option flagged count, the deductibility confirmation for after-tax mode, and an incomplete-row marker on sheet 4 and the claimed-savings lines of sheet 5. I re-ran the revised instruction block's arithmetic on the same invented inputs with a short script. Every equivalent annual cost matched the first run (144,412; 135,098; 118,880; 124,424 in the base view; 144,412; 126,098; 104,880; 102,424 with claimed savings), and the annuity factors matched (4.6229, 7.5361, 9.8181, 8.5595). The only difference in output is that B is now marked incomplete in the claimed-savings view, and sheet 4 has a row_status column. The earlier ambiguities 1 to 5 above are now settled in the template; the recorded observations from the first run are left as they were. This second pass was also not blind, and it checked arithmetic and format, not a fresh end-to-end run.
+After an independent review the template was revised: the "price year differs" flag, the restatement and annuity decimals, the disagreement rule between `price_basis` and a "not in quote" column, the money basis of the levelling amount, the per-option flagged count, the deductibility confirmation for after-tax mode, and an incomplete-row marker on sheet 4 and the claimed-savings lines of sheet 5. I re-ran the revised instruction block's arithmetic on the same sample inputs with a short script. Every equivalent annual cost matched the first run (144,412; 135,098; 118,880; 124,424 in the base view; 144,412; 126,098; 104,880; 102,424 with claimed savings), and the annuity factors matched (4.6229, 7.5361, 9.8181, 8.5595). The only difference in output is that B is now marked incomplete in the claimed-savings view, and sheet 4 has a row_status column. The earlier ambiguities 1 to 5 above are now settled in the template; the recorded observations from the first run are left as they were. This second pass was also not blind, and it checked arithmetic and format, not a fresh end-to-end run.

@@ -4,7 +4,7 @@
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs were the invented example in [example.md](example.md): the settings, the buyer's statement, the sales ledger lines, the metered-volume export, the agreed price inputs, the two billing rules and the adjustment schedule for the invented Seller S and Buyer B. No client data was used. The assistant that ran the template did not write it. It read the template and only the inputs of the example, followed the instruction block and output format, produced the full output below, and only then read the example's published comparison.
+The inputs were the example in [example.md](example.md): the settings, the buyer's statement, the sales ledger lines, the metered-volume export, the agreed price inputs, the two billing rules and the adjustment schedule for the illustrative Seller S and Buyer B. No client data was used. The assistant that ran the template did not write it. It read the template and only the inputs of the example, followed the instruction block and output format, produced the full output below, and only then read the example's published comparison.
 
 ## What came out
 

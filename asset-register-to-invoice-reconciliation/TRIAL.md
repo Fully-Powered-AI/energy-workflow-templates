@@ -1,10 +1,10 @@
-# Asset register to invoice reconciliation: a trial on the invented example
+# Asset register to invoice reconciliation: a trial on the example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5). It did not write this template.
 - **Date:** 2026-11-10
 
-The inputs are the invented example in `public/example.md`: the settings, the equipment register, the purchase records, the commissioning evidence and the ledger export of an invented operator of two small solar and storage sites. No client data was used. The template's instruction block and output format were followed as written. This is a second run, made after review edits to the template (the question rules in step 11, the held-ID counts, the definition of `location`, and the instruction block). An earlier run on the earlier wording asked 14 questions; its record is replaced by this one. The example's own output was not read until this run was finished.
+The inputs are the example in `public/example.md`: the settings, the equipment register, the purchase records, the commissioning evidence and the ledger export of an illustrative operator of two small solar and storage sites. No client data was used. The template's instruction block and output format were followed as written. This is a second run, made after review edits to the template (the question rules in step 11, the held-ID counts, the definition of `location`, and the instruction block). An earlier run on the earlier wording asked 14 questions; its record is replaced by this one. The example's own output was not read until this run was finished.
 
 ## What came out
 
@@ -93,4 +93,4 @@ Draft for Asset accountant and Asset manager. Nothing has been entered, posted o
 
 ## What this does and does not show
 
-One run, by one model, on one invented example. The output matched the example's figures and sections. It does not show how the template behaves on a real register, with larger files, other column names or the stop conditions, which were not exercised because nothing triggered them. Nothing here was tested for a client.
+One run, by one model, on one example. The output matched the example's figures and sections. It does not show how the template behaves on a real register, with larger files, other column names or the stop conditions, which were not exercised because nothing triggered them. Nothing here was tested for a client.

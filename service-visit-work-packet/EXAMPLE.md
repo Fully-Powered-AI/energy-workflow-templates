@@ -1,6 +1,6 @@
-# Service visit work packet: an invented example
+# Service visit work packet: an example
 
-*Illustrative example with invented data.* The site, the turbines, the people, the dates and every record below are invented. Quillon Ridge is an invented wind site with a small maintenance team. Its maintenance supervisor asks for the packet; people are referred to by role.
+*Illustrative example with sample data.* The site, the turbines, the people, the dates and every record below are illustrative. Quillon Ridge is an illustrative wind site with a small maintenance team. Its maintenance supervisor asks for the packet; people are referred to by role.
 
 The inputs come first, in full, so the template can be run on them. The packet follows.
 

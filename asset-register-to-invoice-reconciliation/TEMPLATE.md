@@ -252,4 +252,4 @@ manager, decline and write it as a question for them.
 
 ## Version notes
 
-- 0.1.0, 10 November 2026. Written by FullyPowered AI. Tried once on its invented example, in Claude on 10 November 2026, with the record published beside it. Not yet tested in a client environment.
+- 0.1.0, 10 November 2026. Written by FullyPowered AI. Tried once on its example, in Claude on 10 November 2026, with the record published beside it. Not yet tested in a client environment.

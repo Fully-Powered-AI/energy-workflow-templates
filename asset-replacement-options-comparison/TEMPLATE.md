@@ -249,4 +249,4 @@ decides.
 
 ## Version notes
 
-- 0.1.0, 10 November 2026. Written by FullyPowered AI from its own published map of the work. Tried once on its invented example in Claude on 10 November 2026 (not blind: the runner had seen the example's published workbook), with the record in public/trial.md. Not tested in a client environment or as a packaged version.
+- 0.1.0, 10 November 2026. Written by FullyPowered AI from its own published map of the work. Tried once on its example in Claude on 10 November 2026 (not blind: the runner had seen the example's published workbook), with the record in public/trial.md. Not tested in a client environment or as a packaged version.

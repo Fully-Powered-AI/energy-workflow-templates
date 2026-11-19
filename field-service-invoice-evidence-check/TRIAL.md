@@ -1,10 +1,10 @@
-# Field service invoice evidence check: trial on the invented example
+# Field service invoice evidence check: trial on the example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs were the invented example in `public/example.md` (Lowmoor Field Services, Customer A, purchase order PO-A-5501, billing period 2026-10-26 to 2026-11-01, checked on 2026-11-04). No client data was used. This run was made after the template's review edits (the billing-period data check, the extra's approval reference line, the third wording for Not on the rate sheet, the unit wording and the five-tests wording). The model that ran it also applied those edits, so it was not a cold reader of the template. It followed the instruction block and the output format using only the example's settings, rate sheet, service tickets and field records, and worked the figures before comparing them with the example's published output.
+The inputs were the example in `public/example.md` (Lowmoor Field Services, Customer A, purchase order PO-A-5501, billing period 2026-10-26 to 2026-11-01, checked on 2026-11-04). No client data was used. This run was made after the template's review edits (the billing-period data check, the extra's approval reference line, the third wording for Not on the rate sheet, the unit wording and the five-tests wording). The model that ran it also applied those edits, so it was not a cold reader of the template. It followed the instruction block and the output format using only the example's settings, rate sheet, service tickets and field records, and worked the figures before comparing them with the example's published output.
 
 ## Inputs used
 

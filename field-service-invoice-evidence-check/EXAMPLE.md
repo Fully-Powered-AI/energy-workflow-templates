@@ -1,6 +1,6 @@
-# Field service invoice evidence check: an invented example
+# Field service invoice evidence check: an example
 
-*Illustrative example with invented data.* The company, the customer, the sites, the tickets, the rates and every quantity below are made up. Lowmoor Field Services is an invented company and Customer A is an invented customer; people are shown by role. The settings are the invented company's: customer Customer A, purchase order PO-A-5501 for 12,000.00, billing period 2026-10-26 to 2026-11-01, checked on 2026-11-04. The check is run by the billing clerk for the billing manager; the account lead resolves disputed work. Currency is dollars.
+*Illustrative example with sample data.* The company, the customer, the sites, the tickets, the rates and every quantity below are made up. Lowmoor Field Services is an illustrative company and Customer A is an illustrative customer; people are shown by role. The settings are the illustrative company's: customer Customer A, purchase order PO-A-5501 for 12,000.00, billing period 2026-10-26 to 2026-11-01, checked on 2026-11-04. The check is run by the billing clerk for the billing manager; the account lead resolves disputed work. Currency is dollars.
 
 ## What the billing clerk supplies
 

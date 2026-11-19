@@ -8,7 +8,7 @@ Turn completed field work into draft billing lines tied to rates and signed tick
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Energy · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/field-service-invoice-evidence-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-field-service-invoice-evidence-check&from=gh-field-service-invoice-evidence-check)*
@@ -38,7 +38,7 @@ Each file has fixed column headers, set out in the complete template. If a heade
 
 One page in a fixed order: data checks, totals that tie to the priced field records, the draft billing lines grouped by ticket, the records in question with their facts, equipment day overlaps, gaps and purchase order facts, and a numbered decision for each group. A section with nothing in it says "None." The last lines say what was not supplied or not checked, and that a draft line is not an invoice.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -62,7 +62,7 @@ It stays apart from [pay application line check](https://fullypowered.ai/workflo
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template in its own words. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026, after its review edits, and the record is published with it. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template in its own words. It was editorially reviewed on 10 November 2026. It was tried on its example in Claude on 10 November 2026, after its review edits, and the record is published with it. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your environment means running it on a past billing your billing manager already checked by hand, plus hard cases written in advance, each with its expected behavior: a renamed column, an unsigned ticket, one machine on two tickets for one day, an extra with no approval reference, a record on a ticket that is not in the file. The billing manager checks every figure against the rate sheet and the records before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-field-service-invoice-evidence-check&from=gh-field-service-invoice-evidence-check) builds that test set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=energy-field-service-invoice-evidence-check&from=gh-field-service-invoice-evidence-check) describes the record we keep.
 
@@ -70,13 +70,13 @@ Testing in your environment means running it on a past billing your billing mana
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

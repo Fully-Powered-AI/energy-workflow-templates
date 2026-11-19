@@ -1,10 +1,10 @@
-# Service visit work packet: trial on the invented example
+# Service visit work packet: trial on the example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs were the invented Quillon Ridge example in `public/example.md` (settings, asset register, approved scope, maintenance log, parts requests and access notes). No client data was used. The assistant that ran the template did not write it, and it read the example's packet only after producing its own.
+The inputs were the illustrative Quillon Ridge example in `public/example.md` (settings, asset register, approved scope, maintenance log, parts requests and access notes). No client data was used. The assistant that ran the template did not write it, and it read the example's packet only after producing its own.
 
 ## What came out
 
@@ -89,7 +89,7 @@ Draft for the maintenance supervisor. Nothing has been sent, ordered, booked or 
   - Whether an entry in section 7 (L-408) also counts under "Entries outside the window" is not stated. It was left out of that list.
   - The "Sources" line format is loosely given; row counts were used.
   - "Technical instruction" for a scope line like S3 is left to the specialist, as designed, but the template does not say what to do with S3's "approved" status when its instruction is missing. It was reproduced as approved.
-- **Shortcoming of the trial.** One run, one product, one invented example. It shows the template can be followed to a complete packet; it does not show how it behaves on messy real exports, a wrong header, a code in an access note or a request for a cause.
+- **Shortcoming of the trial.** One run, one product, one example. It shows the template can be followed to a complete packet; it does not show how it behaves on messy real exports, a wrong header, a code in an access note or a request for a cause.
 
 ## Wording changed after this run
 

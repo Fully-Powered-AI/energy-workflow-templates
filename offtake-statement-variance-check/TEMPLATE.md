@@ -127,9 +127,9 @@ This comparison shows how the buyer's statement and the sales ledger differ for 
 
 ## Acceptance tests
 
-Proposed tests. Test 1 was run once, in the recorded run on the invented example (see the trial record published with the workflow template), and matched: difference 153.62, four discrepancies, remainder 0.00, period 2 marked incomplete. The others have not been run.
+Proposed tests. Test 1 was run once, in the recorded run on the example (see the trial record published with the workflow template), and matched: difference 153.62, four discrepancies, remainder 0.00, period 2 marked incomplete. The others have not been run.
 
-1. **Normal run.** Use the invented example. Expected: difference 153.62, four discrepancies, remainder 0.00, period 2 marked incomplete.
+1. **Normal run.** Use the example. Expected: difference 153.62, four discrepancies, remainder 0.00, period 2 marked incomplete.
 2. **Header mismatch.** Rename the volume column in the meter export. Expected: stops and asks which column is which.
 3. **Unit mismatch.** Give the ledger volumes in kWh. Expected: stops and asks which unit governs.
 4. **Missing interval.** Remove a further interval from period 1. Expected: period 1 marked incomplete, its recomputation not final, and no side said to agree.
@@ -232,4 +232,4 @@ Paste this block as custom instructions, followed by the output format above.
 
 ## Version notes
 
-- 0.1.0, 10 November 2026. Written by FullyPowered AI from its own published map of the work. Tried once on its invented example in Claude on 10 November 2026; changed after an independent review the same day (stale status wording, a stated numbering order, one discrepancy for each unmatched adjustment, estimated reads included as supplied, a rule for a schedule period that does not cover the statement period, a volume and price split, and wording fixes), then a second round of small clarifications (how a line-arithmetic difference enters the proof, the kinds of discrepancy named in the instructions, one date style), and not run again (see `public/trial.md`). Not yet tested in a client environment.
+- 0.1.0, 10 November 2026. Written by FullyPowered AI from its own published map of the work. Tried once on its example in Claude on 10 November 2026; changed after an independent review the same day (stale status wording, a stated numbering order, one discrepancy for each unmatched adjustment, estimated reads included as supplied, a rule for a schedule period that does not cover the statement period, a volume and price split, and wording fixes), then a second round of small clarifications (how a line-arithmetic difference enters the proof, the kinds of discrepancy named in the instructions, one date style), and not run again (see `public/trial.md`). Not yet tested in a client environment.
